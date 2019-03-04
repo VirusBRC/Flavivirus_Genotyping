@@ -1,0 +1,39 @@
+LOCUS       AJ621230                 426 bp    RNA     linear   VRL 29-OCT-2007
+DEFINITION  Hepatitis C virus 5'UTR.
+ACCESSION   AJ621230
+VERSION     AJ621230.1
+KEYWORDS    .
+SOURCE      Hepatitis C virus
+  ORGANISM  Hepatitis C virus
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Flaviviridae; Hepacivirus.
+REFERENCE   1
+  AUTHORS   Yasmeen,A., Hamid,S., Granath,F.N., Lindstrom,H., Elliott,R.M.,
+            Siddiqui,A.A. and Persson,M.A.
+  TITLE     Correlation between translation efficiency and outcome of
+            combination therapy in chronic hepatitis C genotype 3
+  JOURNAL   J. Viral Hepat. 13 (2), 87-95 (2006)
+   PUBMED   16436126
+REFERENCE   2  (bases 1 to 426)
+  AUTHORS   Persson,M.A.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JAN-2004) Persson M.A.A., Medicine, Karolinska
+            Institutet, Center for Molecular Medicine, Karolinska Hospital,
+            Stockholm 171 76, Sweden
+FEATURES             Location/Qualifiers
+     source          1..426
+                     /organism="Hepatitis C virus"
+                     /mol_type="genomic RNA"
+                     /isolate="264SR"
+                     /db_xref="taxon:11103"
+     5'UTR           1..426
+ORIGIN      
+        1 rsndrhntyg gatcctgcct cttacgaggc gacactccac catggatcac tcccctgtga
+       61 ggaacttctg tcttcacgcg gaaagcgcct agccatggcg ttagtacgag tgtcgtgcag
+      121 cctccaggac cccccctccc gggagagcca tagtggtctg cggaaccggt gagtacaccg
+      181 gaatcgctgg ggtgaccggg tcctttcttg gagcaacccg ctcaataccc agaaatttgg
+      241 gcgtgccccc gcgagatcac tagccgagta gtgttgggtc gcgaaaggcc ttgtggtact
+      301 gcctgatagg gtgcttgcga gtgccccggg aggtctcgta gaccgtgcaa catgagcaca
+      361 cttcctaaac ctcaaagaaa aaccaaaaga aacaccatcc gtcgcccaca ggacgtcaag
+      421 ggatcc
+//

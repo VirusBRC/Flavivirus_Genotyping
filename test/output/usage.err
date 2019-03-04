@@ -1,0 +1,21 @@
+vipr_genotype.pl: ./vipr_genotype.pl 2.0.4 executing...
+vipr_genotype.pl: command='./vipr_genotype.pl '
+vipr_genotype.pl: $recomb=''  $taxon='' $infile='' $debug='0'
+Usage: ./vipr_genotype.pl -t HCV -d ./ -i AB119282.faa
+Usage: ./vipr_genotype.pl -t HCV -d ./
+Usage: ./vipr_genotype.pl -t HCV -recomb -d ./
+Usage: ./vipr_genotype.pl -recomb -d test -i EU155347.gb
+Usage: Allowed taxon are:
+  taxonID: shorthand
+    11099: BOVDIARRHEA1
+    12637: DENGUE
+    11103: HCV
+    11072: JAPENCEPH
+    11079: MURRAY
+    11983: NOV
+    11080: STLOUIS
+    11084: TKBENCEPH
+    11082: WESTNILE
+    11089: YELLOWFEVER
+    64320: ZIKA
+

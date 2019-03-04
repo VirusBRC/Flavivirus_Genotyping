@@ -1,0 +1,202 @@
+taxit: _seq001 cmd='/usr/local/bin/taxit create -l HxNy -P HCV.refpkg --aln-fasta output.profile.afa --tree-stats /tmp/JVtZVSy4rB//HCVCladeClassn.stats --tree-file /tmp/JVtZVSy4rB//HCVCladeClassn.tree >_seq001.taxit.std 2>_seq001.taxit.err'
+tree:
+Algo::Tree: /opt/tools/pplacer-Linux-v1.1.alpha19/pplacer -c HCV.refpkg --out-dir . _seq001.fasta >_seq001.pplacer.std 2>_seq001.pplacer.err
+Algo::Tree: /opt/tools/pplacer-Linux-v1.1.alpha19/guppy sing _seq001.jplace >_seq001.guppy.std 2>_seq001.guppy.err
+
+cladinator - clades within clades of annotated labels -- analysis of pplacer-type outputs 1.06 (171115)
+_______________________________________________________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.046 (170830)
+
+[running on Java 1.7.0_80 Oracle Corporation]
+
+Input tree                 : _seq001.sing.tre
+Specific-hit support cutoff: 0.7
+Mapping file               : /home/gsun/northrop/genotype/genotype-2.0.4/rmsa/HCV_ICTV_mapping.tsv (231 rows)
+Annotation-separator       : .
+Remove anno.-sep. in output: true
+Query pattern              : _#\d+_M=(.+)
+Special processing         : true
+Special processing pattern : (\d+)([a-z?]*)_.+
+Output table               : AB520610_seq001_cladinator.tsv
+Number of input trees      : 1
+Ext. nodes in input tree   : 232
+
+Result for AB520610|1a|1_2100
+ Matching Clade(s):
+ 1a: 1.0
+
+ Matching Down-tree Bracketing Clade(s):
+ 1a: 1.0
+
+ Matching Up-tree Bracketing Clade(s):
+ 1a: 1.0
+
+ Total Number of Matches: 1/231
+
+Genotype_TPP::TPP:	AB520610_seq001	1a	_seq001
+taxit: _seq002 cmd='/usr/local/bin/taxit create -l HxNy -P HCV.refpkg --aln-fasta output.profile.afa --tree-stats /tmp/JVtZVSy4rB//HCVCladeClassn.stats --tree-file /tmp/JVtZVSy4rB//HCVCladeClassn.tree >_seq002.taxit.std 2>_seq002.taxit.err'
+tree:
+Algo::Tree: /opt/tools/pplacer-Linux-v1.1.alpha19/pplacer -c HCV.refpkg --out-dir . _seq002.fasta >_seq002.pplacer.std 2>_seq002.pplacer.err
+Algo::Tree: /opt/tools/pplacer-Linux-v1.1.alpha19/guppy sing _seq002.jplace >_seq002.guppy.std 2>_seq002.guppy.err
+
+cladinator - clades within clades of annotated labels -- analysis of pplacer-type outputs 1.06 (171115)
+_______________________________________________________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.046 (170830)
+
+[running on Java 1.7.0_80 Oracle Corporation]
+
+Input tree                 : _seq002.sing.tre
+Specific-hit support cutoff: 0.7
+Mapping file               : /home/gsun/northrop/genotype/genotype-2.0.4/rmsa/HCV_ICTV_mapping.tsv (231 rows)
+Annotation-separator       : .
+Remove anno.-sep. in output: true
+Query pattern              : _#\d+_M=(.+)
+Special processing         : true
+Special processing pattern : (\d+)([a-z?]*)_.+
+Output table               : AB520610_seq002_cladinator.tsv
+Number of input trees      : 1
+Ext. nodes in input tree   : 232
+
+Result for AB520610|1a|1_1400
+ Matching Clade(s):
+ 1a: 1.0
+
+ Matching Down-tree Bracketing Clade(s):
+ 1a: 1.0
+
+ Matching Up-tree Bracketing Clade(s):
+ 1a: 1.0
+
+ Total Number of Matches: 1/231
+
+Genotype_TPP::TPP:	AB520610_seq002	1a	_seq002
+taxit: _seq003 cmd='/usr/local/bin/taxit create -l HxNy -P HCV.refpkg --aln-fasta output.profile.afa --tree-stats /tmp/JVtZVSy4rB//HCVCladeClassn.stats --tree-file /tmp/JVtZVSy4rB//HCVCladeClassn.tree >_seq003.taxit.std 2>_seq003.taxit.err'
+tree:
+Algo::Tree: /opt/tools/pplacer-Linux-v1.1.alpha19/pplacer -c HCV.refpkg --out-dir . _seq003.fasta >_seq003.pplacer.std 2>_seq003.pplacer.err
+Algo::Tree: /opt/tools/pplacer-Linux-v1.1.alpha19/guppy sing _seq003.jplace >_seq003.guppy.std 2>_seq003.guppy.err
+
+cladinator - clades within clades of annotated labels -- analysis of pplacer-type outputs 1.06 (171115)
+_______________________________________________________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.046 (170830)
+
+[running on Java 1.7.0_80 Oracle Corporation]
+
+Input tree                 : _seq003.sing.tre
+Specific-hit support cutoff: 0.7
+Mapping file               : /home/gsun/northrop/genotype/genotype-2.0.4/rmsa/HCV_ICTV_mapping.tsv (231 rows)
+Annotation-separator       : .
+Remove anno.-sep. in output: true
+Query pattern              : _#\d+_M=(.+)
+Special processing         : true
+Special processing pattern : (\d+)([a-z?]*)_.+
+Output table               : AB520610_seq003_cladinator.tsv
+Number of input trees      : 1
+Ext. nodes in input tree   : 234
+
+Result for AB520610|1a|1_1000
+ Matching Clade(s):
+ 1: 1.0
+
+ Specific-hit(s):
+ 1a: 0.9179
+
+ Matching Clade(s) with Specific-hit(s):
+ 1: 1.0
+     1a: 0.9179
+
+ Matching Down-tree Bracketing Clade(s):
+ 1a: 1.0
+
+ Matching Up-tree Bracketing Clade(s):
+ 1: 1.0
+
+ Total Number of Matches: 3/231
+
+Genotype_TPP::TPP:	AB520610_seq003	1a	_seq003
+taxit: _seq004 cmd='/usr/local/bin/taxit create -l HxNy -P HCV.refpkg --aln-fasta output.profile.afa --tree-stats /tmp/JVtZVSy4rB//HCVCladeClassn.stats --tree-file /tmp/JVtZVSy4rB//HCVCladeClassn.tree >_seq004.taxit.std 2>_seq004.taxit.err'
+tree:
+Algo::Tree: /opt/tools/pplacer-Linux-v1.1.alpha19/pplacer -c HCV.refpkg --out-dir . _seq004.fasta >_seq004.pplacer.std 2>_seq004.pplacer.err
+Algo::Tree: /opt/tools/pplacer-Linux-v1.1.alpha19/guppy sing _seq004.jplace >_seq004.guppy.std 2>_seq004.guppy.err
+
+cladinator - clades within clades of annotated labels -- analysis of pplacer-type outputs 1.06 (171115)
+_______________________________________________________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.046 (170830)
+
+[running on Java 1.7.0_80 Oracle Corporation]
+
+Input tree                 : _seq004.sing.tre
+Specific-hit support cutoff: 0.7
+Mapping file               : /home/gsun/northrop/genotype/genotype-2.0.4/rmsa/HCV_ICTV_mapping.tsv (231 rows)
+Annotation-separator       : .
+Remove anno.-sep. in output: true
+Query pattern              : _#\d+_M=(.+)
+Special processing         : true
+Special processing pattern : (\d+)([a-z?]*)_.+
+Output table               : AB520610_seq004_cladinator.tsv
+Number of input trees      : 1
+Ext. nodes in input tree   : 234
+
+Result for AB520610|1a|1_700
+ Matching Clade(s):
+ 1: 1.0
+
+ Matching Down-tree Bracketing Clade(s):
+ 1a: 1.0
+
+ Matching Up-tree Bracketing Clade(s):
+ 1: 1.0
+
+ Total Number of Matches: 3/231
+
+Genotype_TPP::TPP:	AB520610_seq004	1	_seq004
+taxit: _seq005 cmd='/usr/local/bin/taxit create -l HxNy -P HCV.refpkg --aln-fasta output.profile.afa --tree-stats /tmp/JVtZVSy4rB//HCVCladeClassn.stats --tree-file /tmp/JVtZVSy4rB//HCVCladeClassn.tree >_seq005.taxit.std 2>_seq005.taxit.err'
+tree:
+Algo::Tree: /opt/tools/pplacer-Linux-v1.1.alpha19/pplacer -c HCV.refpkg --out-dir . _seq005.fasta >_seq005.pplacer.std 2>_seq005.pplacer.err
+Algo::Tree: /opt/tools/pplacer-Linux-v1.1.alpha19/guppy sing _seq005.jplace >_seq005.guppy.std 2>_seq005.guppy.err
+
+cladinator - clades within clades of annotated labels -- analysis of pplacer-type outputs 1.06 (171115)
+_______________________________________________________________________________________________________
+
+WWW     : https://sites.google.com/site/cmzmasek/home/software/forester
+Contact : phyloxml@gmail.com
+Based on: forester 1.046 (170830)
+
+[running on Java 1.7.0_80 Oracle Corporation]
+
+Input tree                 : _seq005.sing.tre
+Specific-hit support cutoff: 0.7
+Mapping file               : /home/gsun/northrop/genotype/genotype-2.0.4/rmsa/HCV_ICTV_mapping.tsv (231 rows)
+Annotation-separator       : .
+Remove anno.-sep. in output: true
+Query pattern              : _#\d+_M=(.+)
+Special processing         : true
+Special processing pattern : (\d+)([a-z?]*)_.+
+Output table               : AB520610_seq005_cladinator.tsv
+Number of input trees      : 1
+Ext. nodes in input tree   : 237
+
+Result for AB520610|1a|1_560
+ Matching Clade(s):
+ 1: 1.0
+
+ Matching Down-tree Bracketing Clade(s):
+ 1a: 1.0
+
+ Matching Up-tree Bracketing Clade(s):
+ 1: 1.0
+
+ Total Number of Matches: 6/231
+
+Genotype_TPP::TPP:	AB520610_seq005	1	_seq005

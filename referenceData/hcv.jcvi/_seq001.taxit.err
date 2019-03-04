@@ -1,0 +1,7 @@
+usage: taxit create [-h] [-c] -P PATH [-a NAME] [-d TEXT] -l LOCUS
+                    [-r VERSION] [-f FILE] [-i file] [-m FILE] [-p FILE]
+                    [-R FILE] [-s FILE] [-S FILE] [-t FILE] [-T FILE]
+                    [--stats-type {PhyML,FastTree,RAxML}]
+                    [--frequency-type {empirical,model}] [--no-reroot]
+                    [--rppr RPPR]
+taxit create: error: ambiguous option: --tree could match --tree-file, --tree-stats

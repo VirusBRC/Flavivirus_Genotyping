@@ -1,0 +1,52 @@
+LOCUS       JX171048                 432 bp    RNA     linear   VRL 13-NOV-2012
+DEFINITION  Hepatitis C virus genotype 4 strain 6856 NS3 protease gene, partial
+            cds.
+ACCESSION   JX171048
+VERSION     JX171048.1  GI:401712597
+KEYWORDS    .
+SOURCE      Hepatitis C virus genotype 4
+  ORGANISM  Hepatitis C virus genotype 4
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Hepacivirus.
+REFERENCE   1  (bases 1 to 432)
+  AUTHORS   Paolucci,S., Fiorina,L., Piralla,A., Gulminetti,R., Novati,S.,
+            Barbarini,G., Sacchi,P., Gatti,M., Dossena,L. and Baldanti,F.
+  TITLE     Naturally occurring mutations to HCV protease inhibitors in
+            treatment-naive patients
+  JOURNAL   Virol. J. 9, 245 (2012)
+   PUBMED   23095680
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 432)
+  AUTHORS   Paolucci,S., Fiorina,L., Piralla,A., Gulminetti,R., Novati,S.,
+            Barbarini,G., Sacchi,P., Gatti,M., Dossena,L. and Baldanti,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2012) Molecular Virology Unit, Virology and
+            Microbiology Department, Fondazione IRCCS Policlinico San Matteo,
+            via Taramelli 5, Pavia, PV 27100, Italy
+FEATURES             Location/Qualifiers
+     source          1..432
+                     /organism="Hepatitis C virus genotype 4"
+                     /mol_type="genomic RNA"
+                     /strain="6856"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:33745"
+                     /country="Italy"
+                     /collection_date="2011"
+     CDS             <1..>432
+                     /codon_start=1
+                     /product="NS3 protease"
+                     /protein_id="AFP99039.1"
+                     /db_xref="GI:401712598"
+                     /translation="APIPAYAQQTRGLFSTIVTSLTGKDTNENCGEVQVLSTATQSFM
+                     GTAVNGVMWTVYHGAGSKTLCGPKGPVCQMYTNVDQDLVGWPAPPGVKSLSPCTCGAS
+                     DLFLVTRHADVIPVRRRGDTRGALLSPRPISTLKGSSGGPLL"
+ORIGIN      
+        1 gcgcctatcc ctgcgtacgc gcagcagacc cgcggcttgt tcagcaccat cgtaacgagc
+       61 cttactggca aggacaccaa tgaaaattgt ggcgaggtcc aggtactgtc tacagccacg
+      121 cagtccttta tggggactgc ggtcaatggc gtcatgtgga ctgtgtacca cggggctggc
+      181 agcaagaccc tctgcggccc aaagggacct gtttgccaaa tgtataccaa tgtggaccaa
+      241 gacctcgtgg ggtggccggc tcctcctgga gttaagtccc tctcaccgtg tacttgtgga
+      301 gcatcagatc tgttcctagt tacgcggcat gccgatgtca tacctgtgcg caggagaggt
+      361 gacactcggg gggcccttct gagccctagg ccaatatcta ctctcaaggg ctcatcagga
+      421 ggaccattgc tc
+//

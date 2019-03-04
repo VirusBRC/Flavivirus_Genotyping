@@ -1,0 +1,61 @@
+
+
+This is RAxML version 7.2.6 released by Alexandros Stamatakis in February 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+
+
+Alignment has 6819 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 4.92%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 6819
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/home/zma/SOFTWARE/PHYLO/RAxML/RAxML-7.2.6/RAxML-7.2.6/raxmlHPC -m GTRGAMMA -s HCV_ref_aln20170601_CDS_plus_addtl_refs_ni.phylip -n HCV_ref_aln20170601_CDS_plus_addtl_refs_ni_GTRGAMMA 
+
+
+Inference[0]: Time 2901.727783 GAMMA-based likelihood -778696.356162, best rearrangement setting 5
+alpha[0]: 0.484291 rates[0] ac ag at cg ct gt: 1.693109 7.139994 2.121353 0.787331 8.558710 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -778690.524940 tree written to file /home/zma/WORK/PHYLO/CLASSIFICATION/HCV/ANALYSIS_1/RAxML_result.HCV_ref_aln20170601_CDS_plus_addtl_refs_ni_GTRGAMMA
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -778690.524940 .... 
+
+Final GAMMA-based Score of best tree -778690.524940
+
+Program execution info written to /home/zma/WORK/PHYLO/CLASSIFICATION/HCV/ANALYSIS_1/RAxML_info.HCV_ref_aln20170601_CDS_plus_addtl_refs_ni_GTRGAMMA
+Best-scoring ML tree written to: /home/zma/WORK/PHYLO/CLASSIFICATION/HCV/ANALYSIS_1/RAxML_bestTree.HCV_ref_aln20170601_CDS_plus_addtl_refs_ni_GTRGAMMA
+
+Overall execution time: 4277.006246 secs or 1.188057 hours or 0.049502 days
+

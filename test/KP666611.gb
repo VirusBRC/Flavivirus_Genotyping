@@ -1,0 +1,62 @@
+LOCUS       KP666611                 772 bp    RNA     linear   VRL 11-MAR-2015
+DEFINITION  Hepatitis C virus clone 10021_5UTR_12 polyprotein gene, partial
+            cds.
+ACCESSION   KP666611
+VERSION     KP666611.1
+KEYWORDS    .
+SOURCE      Hepatitis C virus
+  ORGANISM  Hepatitis C virus
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Flaviviridae; Hepacivirus.
+REFERENCE   1  (bases 1 to 772)
+  AUTHORS   Stoddard,M.B., Li,H., Wang,S., Saeed,M., Andrus,L., Ding,W.,
+            Jiang,X., Learn,G.H., von Schaewen,M., Wen,J., Goepfert,P.A.,
+            Hahn,B.H., Ploss,A., Rice,C.M. and Shaw,G.M.
+  TITLE     Identification, molecular cloning, and analysis of full-length
+            hepatitis C virus transmitted/founder genotypes 1, 3, and 4
+  JOURNAL   MBio 6 (2), e02518-14 (2015)
+   PUBMED   25714714
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 772)
+  AUTHORS   Stoddard,M.B., Li,H., Wang,S., Ding,W., Jiang,X. and Shaw,G.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JAN-2015) Division of Hematology/Oncology, University
+            of Pennsylvania, 3610 Hamilton Walk, Philadelphia, PA 19104, USA
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..772
+                     /organism="Hepatitis C virus"
+                     /mol_type="genomic RNA"
+                     /isolate="10021"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11103"
+                     /clone="10021_5UTR_12"
+                     /country="USA"
+                     /collection_date="14-Sep-2002"
+                     /note="genotype: 1a"
+     misc_feature    <1..341
+                     /note="internal ribosome entry site"
+     CDS             342..>772
+                     /codon_start=1
+                     /product="polyprotein"
+                     /protein_id="AJR35675.1"
+                     /translation="MSTNPKPQRKTKRNTNRRPQDVKFPGGGQIVGGVYLLPRRGPRL
+                     GVRATRKTSERSQPRGRRQPIPKARRPEGRSWAQPGYPWPLYGNEGCGWAGWLLSPRG
+                     SRPSWGPTDPRRRSRNLGKVIDTLTCGFADLMGYIPLVGAPL"
+ORIGIN      
+        1 gccagccccc tgatgggggc gacactccac catgaatcac tcccctgtga ggaactactg
+       61 tcttcacgca gaaagcgtct agccatggcg ttagtatgag tgtcgtgcag cctccaggac
+      121 cccccctccc gggagagcca tagtggtctg cggaaccggt gagtacaccg gaattgccag
+      181 gacgaccggg tcctttcttg gataaacccg ctcaatgcct ggagatttgg gcgtgccccc
+      241 gcaagactgc tagccgagta gtgttgggtc gcgaaaggcc ttgtggtact gcctgatagg
+      301 gtgcttgcga gtgccccggg aggtctcgta gaccgtgcac catgagcacg aatcctaaac
+      361 ctcaaagaaa aaccaaacgt aacaccaacc gtcgcccaca ggacgtcaag ttcccgggtg
+      421 gcggtcagat cgttggtgga gtttacttgt tgccgcgcag gggccctaga ttgggtgtgc
+      481 gcgcgacgag gaagacttcc gagcggtcgc aacctcgagg tagacgtcag cctatcccca
+      541 aggcgcgtcg gcccgagggc aggtcctggg ctcagcccgg gtacccttgg cccctctatg
+      601 gcaatgaggg ttgcgggtgg gcgggatggc tcctgtctcc ccgtggctct cggcctagct
+      661 ggggccccac agacccccgg cgtaggtcgc gcaatttggg taaggtcatc gataccctta
+      721 cgtgcggctt cgccgacctc atggggtaca taccgctcgt cggcgcccct ct
+//

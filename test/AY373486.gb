@@ -1,0 +1,46 @@
+LOCUS       AY373486                 401 bp    RNA     linear   VRL 26-JUL-2016
+DEFINITION  Hepatitis C virus type 5 isolate pol NS5b gene, partial cds.
+ACCESSION   AY373486
+VERSION     AY373486.1
+KEYWORDS    .
+SOURCE      Hepatitis C virus genotype 5
+  ORGANISM  Hepatitis C virus genotype 5
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Flaviviridae; Hepacivirus.
+REFERENCE   1  (bases 1 to 401)
+  AUTHORS   Legrand-Abravanel,F., Sandres-Saune,K., Barange,K., Alric,L.,
+            Moreau,J., Desmorat,P., Vinel,J.P. and Izopet,J.
+  TITLE     Hepatitis C virus genotype 5: epidemiological characteristics and
+            sensitivity to combination therapy with interferon-alpha plus
+            ribavirin
+  JOURNAL   J. Infect. Dis. 189 (8), 1397-1400 (2004)
+   PUBMED   15073676
+REFERENCE   2  (bases 1 to 401)
+  AUTHORS   Legrand Abravanel,F., Sandre-Saune,K., Barange,K., Alric,L.,
+            Moreau,J., Desmorat,P., Vinel,J. and Izopet,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-AUG-2003) Laboratoire de Virologie, EA2046, IFR30,
+            Chu de Toulouse, Chu Purpan, TAS 40031, Toulouse F 31059, France
+FEATURES             Location/Qualifiers
+     source          1..401
+                     /organism="Hepatitis C virus genotype 5"
+                     /mol_type="genomic RNA"
+                     /isolate="pol"
+                     /db_xref="taxon:33746"
+                     /note="genotype: 5"
+     CDS             <1..>401
+                     /codon_start=3
+                     /product="NS5b"
+                     /protein_id="AAQ92392.1"
+                     /translation="GIPYDTRCFDSXVTEHDIRTEESIYQSCDLPSEARRVISSLTNR
+                     LYCGGPMFNSKGERCGYRRCRASGVFPTSLGNTMTCYIKAVASCRAAGLRDCTLLVCG
+                     DDLVVXCZSQGVTEDEACLRVFTEAMTRNSA"
+ORIGIN      
+        1 tggggatccc gtatgatacc cgctgctttg attcamctgt aaccgaacat gacatacgga
+       61 ctgaagagtc catataccaa tcttgtgact taccatcaga agcccgcaga gtgatctctt
+      121 cactgacgaa ccgcttgtac tgtggaggcc caatgtttaa tagcaagggg gagcggtgtg
+      181 gytaccgcag atgccgcgca agcggcgtct ttcccaccag cttaggcaac actatgacat
+      241 gttacatcaa agcggttgcg tcctgtagag ccgcagggct ccgggactgt actctgttag
+      301 tgtgcggtga cgacttggtg gtcayttgcs agagccaggg agtcacggag gatgaagcct
+      361 gcctgagagt cttcacggag gctatgacca ggaattccgc c
+//

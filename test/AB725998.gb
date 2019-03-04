@@ -1,0 +1,59 @@
+LOCUS       AB725998                 675 bp    RNA     linear   VRL 22-NOV-2012
+DEFINITION  Hepatitis C virus subtype 4a gene for polyprotein, partial cds,
+            isolate: NS5A_38.
+ACCESSION   AB725998
+VERSION     AB725998.1  GI:425029522
+KEYWORDS    .
+SOURCE      Hepatitis C virus subtype 4a
+  ORGANISM  Hepatitis C virus subtype 4a
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Hepacivirus.
+REFERENCE   1
+  AUTHORS   El-Shamy,A., Shoji,I., El-Akel,W., Bilasy,S.E., Deng,L.,
+            El-Raziky,M., Jiang,D.P., Esmat,G. and Hotta,H.
+  TITLE     NS5A Sequence Heterogeneity of Hepatitis C Virus Genotype 4a
+            Predicts Clinical Outcome of Pegylated-Interferon-Ribavirin Therapy
+            in Egyptian Patients
+  JOURNAL   J. Clin. Microbiol. 50 (12), 3886-3892 (2012)
+   PUBMED   22993188
+REFERENCE   2  (bases 1 to 675)
+  AUTHORS   El-shamy,A., Shoji,I., El-Akel,W., Ide,Y., Bilasy,S., Deng,L.,
+            El-Raziky,M., Jiang,D., Esmat,G. and Hotta,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUN-2012) Contact:Hak Hotta Graduate School of
+            Medicine, Kobe University, Microbiology; 7-5-1 Kusunoki-cho,
+            Chuo-ku, Kobe, Hyogo 650-0017, Japan
+FEATURES             Location/Qualifiers
+     source          1..675
+                     /organism="Hepatitis C virus subtype 4a"
+                     /mol_type="genomic RNA"
+                     /isolate="NS5A_38"
+                     /isolation_source="Egyptian chronically hepatitis C virus
+                     infected patient"
+                     /db_xref="taxon:31653"
+     CDS             <1..>675
+                     /codon_start=1
+                     /product="polyprotein"
+                     /protein_id="BAM67068.1"
+                     /db_xref="GI:425029523"
+                     /translation="GSPPSLASSSASQLSAPSLKATCSARHDSPGTDLLEANLLWGST
+                     TTRVETDEKVIVLDSFFPCTAVPDDDREVSVVAEVLCPTKKFPPALPIWARPDYNPPL
+                     IETWKQQDYKPPVVHGCALPPSKQPPVPPPRRKRTVHLTESVISTALAQLAAKTFGKP
+                     ELGSDSGTDLTTPTDTTSSGPVIVGDASDDESCSSMPPLEGEPGDPNLTSDSWSTVSG
+                     SEDVVCC"
+     mat_peptide     1..>675
+                     /product="NS5A protein"
+ORIGIN      
+        1 gggtcaccac cctccttagc tagttcctca gctagccagc tgtccgcccc gtccctcaag
+       61 gccacatgct ccgctcgcca cgactccccc ggtactgatc tcctcgaggc taacctcctg
+      121 tgggggtcca ctactaccag ggttgagacg gacgagaagg tgatagtact agactctttc
+      181 tttccatgca cggctgtacc ggatgatgac agggaggttt cggtcgtcgc ggaagtcctg
+      241 tgtccgacca agaagttccc cccagctcta ccgatctggg ctagaccaga ttataatcca
+      301 cctcttattg agacgtggaa gcaacaggac tacaaacctc cggtcgtcca cgggtgcgct
+      361 ctgcctccca gcaaacaacc tcctgtccct cctcctagga ggaaacggac agtccatctc
+      421 actgagtccg ttatttccac tgccttggct caactggccg caaagacctt tggcaagcca
+      481 gagctgggct cagactccgg cacagacctc accaccccaa ctgatacaac aagttcgggc
+      541 cccgtcattg tgggtgacgc gtctgatgac gaatcttgtt cgtcaatgcc tccactagag
+      601 ggggagcccg gggacccaaa cttgacttca gattcttggt ccactgttag cggatcagag
+      661 gacgtcgtgt gctgc
+//

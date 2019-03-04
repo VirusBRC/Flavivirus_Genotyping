@@ -1,0 +1,2 @@
+#	Job_name	short_name	defline	species	region	position	status(geno)	BI(geno)	genotype	subtype	status(recomb)	BI(recomb)	recombinant	subtype	comment(geno)
+1	AB520610	_seq001	AB520610	HCV	NA	   1..9598	Success	BI=1.000	genotype=1a	sub=NA	Skip	BI=	genotype=NA	sub=NA	

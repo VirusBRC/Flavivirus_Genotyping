@@ -1,0 +1,54 @@
+LOCUS       JQ652946                 424 bp    RNA     linear   VRL 14-AUG-2012
+DEFINITION  Hepatitis C virus isolate 52-TUN-05 polyprotein gene, partial cds.
+ACCESSION   JQ652946
+VERSION     JQ652946.1  GI:399931892
+KEYWORDS    .
+SOURCE      Hepatitis C virus
+  ORGANISM  Hepatitis C virus
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Hepacivirus.
+REFERENCE   1  (bases 1 to 424)
+  AUTHORS   Rajhi,M. and Triki,H.
+  TITLE     Subtyping Genotype 2 Hepatitis C viruses from Tunisia
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 424)
+  AUTHORS   Rajhi,M. and Triki,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-FEB-2012) Laboratoire de Virologie Clinique, Institut
+            Pasteur de Tunis, 13 Place Pasteur le Belvedere, Tunis 1002,
+            Tunisia
+FEATURES             Location/Qualifiers
+     source          1..424
+                     /organism="Hepatitis C virus"
+                     /mol_type="genomic RNA"
+                     /isolate="52-TUN-05"
+                     /isolation_source="serum"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11103"
+                     /country="Tunisia"
+                     /collection_date="2005"
+                     /PCR_primers="fwd_name: dm111, fwd_seq:
+                     gcaacagggaayytdccyggttgctc, fwd_name: dm109, fwd_seq:
+                     aayytdcccggttgctctttytctat, rev_name: dm110, rev_seq:
+                     gtrggngaccarttcatcatca, rev_name: dm108, rev_seq:
+                     ttcatcatcatrtcccangccat"
+                     /note="genotype: 2"
+     CDS             <1..>424
+                     /note="core/E1 region"
+                     /codon_start=2
+                     /product="polyprotein"
+                     /protein_id="AFP57482.1"
+                     /db_xref="GI:399931893"
+                     /translation="FLLALLSCITVPVSAVEVKNTSDSYMATNDCSNSSIVWQLEGAV
+                     LHTPGCIPCERTGNVSRCWVSVTPNVAISQPGALTKGLRAHIDVIVMSATLCSALYVG
+                     DVCGAAMLAAQVVIVSPQHHHFVQDCNCSIYPGHITGHR"
+ORIGIN      
+        1 ctttcttcta gccctcttgt cttgcatcac tgtgccagtt tccgccgtgg aggtcaagaa
+       61 caccagcgac tcctacatgg cgaccaatga ttgctccaac tccagcatcg tttggcagct
+      121 tgaaggcgca gtgcttcata ctcctggatg catcccgtgt gagcggactg gtaacgtgtc
+      181 ccgatgctgg gtgtcggtca cccccaatgt ggctataagt caacctggcg ctctcactaa
+      241 gggcttgcgg gcgcacatcg atgtcatcgt gatgtctgct acgctctgtt cagccctcta
+      301 tgtgggggac gtgtgtggcg cggcgatgtt ggccgctcag gtcgtcatcg tatcgccaca
+      361 gcaccaccac tttgtccagg actgcaattg ctccatctac ccgggccata tcacggggca
+      421 tcgc
+//

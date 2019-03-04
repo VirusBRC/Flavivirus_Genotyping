@@ -1,0 +1,22 @@
+LOCUS       A25295                    93 bp    RNA     linear   PAT 29-SEP-1995
+DEFINITION  HCV clone C-13.
+ACCESSION   A25295
+VERSION     A25295.1  GI:1249590
+KEYWORDS    .
+SOURCE      Hepatitis C virus
+  ORGANISM  Hepatitis C virus
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Hepacivirus.
+REFERENCE   1  (bases 1 to 93)
+  AUTHORS   .
+  TITLE     cDNAS DERIVED FROM HEPATITIS C VIRUS
+  JOURNAL   Patent: WO 9302193-A1 7 04-FEB-1993;
+FEATURES             Location/Qualifiers
+     source          1..93
+                     /organism="Hepatitis C virus"
+                     /mol_type="unassigned RNA"
+                     /db_xref="taxon:11103"
+ORIGIN      
+        1 gggggaaagg acgccggaac catccagcaa ggccgttaac tacattcgct ccgtgtggta
+       61 ggactgcgga tgacactgag tcaccagaca cca
+//

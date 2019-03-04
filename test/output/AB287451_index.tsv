@@ -1,0 +1,3 @@
+#	Job_name	short_name	defline	species	region	status(geno)	BI(geno)	genotype	subtype	status(recomb)	BI(recomb)	recombinant	subtype	comment(geno)
+1	AB287451	_seq001	AB287451	NOV	NA	Failed	BI=0.000	genotype=NA	sub=NA	Skip	BI=	genotype=NA	sub=NA	
+2	AB287451	_seq001	AB287451	NOVII	ORF2	Success	BI=0.458	genotype=II.4	sub=US95_96	Skip	BI=	genotype=NA	sub=NA	

@@ -1,0 +1,2 @@
+#	Job_name	short_name	defline	species	region	position	status(geno)	BI(geno)	genotype	subtype	status(recomb)	BI(recomb)	recombinant	subtype	comment(geno)
+1	KM078979	_seq001	KM078979	ZIKA	NA	   1..976	Success	BI=1.000	genotype=Asian	sub=NA	Skip	BI=	genotype=NA	sub=NA	

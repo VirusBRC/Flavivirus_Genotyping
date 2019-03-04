@@ -1,0 +1,2 @@
+#	Job_name	short_name	defline	species	region	position	status(geno)	BI(geno)	genotype	subtype	status(recomb)	BI(recomb)	recombinant	subtype	comment(geno)
+1	AY326412	_seq001	AY326412	ZIKA	NA	   1..314	Failed	BI=0.000	genotype=NA	sub=NA	Skip	BI=	genotype=NA	sub=NA	Input genome is too short: 314

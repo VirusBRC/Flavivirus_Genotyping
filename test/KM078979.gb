@@ -1,0 +1,65 @@
+LOCUS       KM078979                 976 bp    RNA     linear   VRL 10-DEC-2015
+DEFINITION  Zika virus strain CHI2909014 NS5 protein gene, partial cds.
+ACCESSION   KM078979
+VERSION     KM078979.1  GI:746657104
+KEYWORDS    .
+SOURCE      Zika virus
+  ORGANISM  Zika virus
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Flaviviridae; Flavivirus; Spondweni virus group.
+REFERENCE   1  (bases 1 to 976)
+  AUTHORS   Tognarelli,J., Ulloa,S., Villagra,E., Lagos,J., Aguayo,C.,
+            Fasce,R., Parra,B., Mora,J., Becerra,N., Lagos,N., Vera,L.,
+            Olivares,B., Vilches,M. and Fernandez,J.
+  TITLE     A report on the outbreak of Zika virus on Easter Island, South
+            Pacific, 2014
+  JOURNAL   Arch. Virol. (2015) In press
+   PUBMED   26611910
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 976)
+  AUTHORS   Tognarelli,J., Lagos,J., Villagra,E., Vera,L., Aguayo,C., Ulloa,S.,
+            Becerra,N., Lagos,N., Parra,B., Mora,J., Vilches,M. and
+            Fernandez,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JUL-2014) Biomedico, Instituto de Salud Publica de
+            Chile, Marathon 1000, Nunoa, Santiago, Region Metropolitana
+            7780060, Chile
+FEATURES             Location/Qualifiers
+     source          1..976
+                     /organism="Zika virus"
+                     /mol_type="genomic RNA"
+                     /strain="CHI2909014"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:64320"
+                     /country="Chile: Easter Island"
+                     /collection_date="07-May-2014"
+     CDS             <1..>976
+                     /codon_start=2
+                     /product="NS5 protein"
+                     /protein_id="AJD79051.1"
+                     /db_xref="GI:746657105"
+                     /translation="SRAIWYMWLGARFLEFEALGFLNEDHWMGRENSGGGVEGLGLQR
+                     LGYVLEEMSRIPGGRMYADDTAGWDTRISRFDLENEALITNQMEKGHRALALAIIKYT
+                     YQNKVVKVLRPAEKGKTVMDIISRQDQRGSGQVVTYALNTFTNLVVQLIRNMEAEEVL
+                     EMQDLWLLRRSEKVTNWLQSNGWDRLKRMAVSGDDCVVKPIDDRFAHALRFLNDMGKV
+                     RKDTQEWKPSTGWDNWEEVPFCSHHFNKLHLKDGRSIVVPCRHQDELIGRARVSPGAG
+                     WSIRETACLAKSYAQMWQLLYFHRRDLRLMANAICSSVPVDWVPTGRTT"
+ORIGIN      
+        1 cagccgcgcc atctggtata tgtggctagg ggctagattt ctagagttcg aagcccttgg
+       61 attcttgaac gaggatcact ggatggggag agagaactca ggaggtggtg ttgaagggct
+      121 gggattacaa agactcggat atgtcctaga agagatgagt cgcataccag gaggaaggat
+      181 gtatgcagat gacactgctg gctgggacac ccgcatcagc aggtttgatc tggagaatga
+      241 agctctaatc accaaccaaa tggagaaagg gcacagggcc ttggcattgg ccataatcaa
+      301 gtacacatac caaaacaaag tggtaaaggt ccttagacca gctgaaaaag ggaagacagt
+      361 tatggacatt atttcgagac aagaccaaag ggggagcgga caagttgtca cttacgctct
+      421 taacacattt accaacctag tggtgcaact cattcggaat atggaggctg aggaagttct
+      481 agagatgcaa gacttgtggc tgctgcggag gtcagagaaa gtgaccaact ggttgcagag
+      541 caacggatgg gataggctca aacgaatggc agtcagtgga gatgattgcg ttgtgaagcc
+      601 aattgatgat aggtttgcac atgccctcag gttcttgaat gatatgggaa aagttaggaa
+      661 ggacacacaa gagtggaaac cctcaactgg atgggacaac tgggaagaag ttccgttttg
+      721 ctcccaccac ttcaacaagc tccatctcaa ggacgggagg tccattgtgg ttccctgccg
+      781 ccaccaagat gaactgattg gccgggcccg cgtctctcca ggggcgggat ggagcatccg
+      841 ggagactgct tgcctagcaa aatcatatgc gcaaatgtgg cagctccttt atttccacag
+      901 aagggacctc cgactgatgg ccaatgccat ttgttcatct gtgccagttg actgggttcc
+      961 aactgggaga actacc
+//

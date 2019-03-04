@@ -1,0 +1,70 @@
+LOCUS       AF091015                1488 bp    RNA     linear   VRL 01-OCT-1998
+DEFINITION  Tick-borne encephalitis virus strain Pan polyprotein gene, partial
+            cds.
+ACCESSION   AF091015
+VERSION     AF091015.1  GI:3676801
+KEYWORDS    .
+SOURCE      Tick-borne encephalitis virus
+  ORGANISM  Tick-borne encephalitis virus
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Flavivirus; tick-borne encephalitis virus group.
+REFERENCE   1  (bases 1 to 1488)
+  AUTHORS   Ecker,M., Allison,S.L., Meixner,T. and Heinz,F.X.
+  TITLE     Sequence analysis and genetic classification of tick-borne
+            encephalitis viruses from Europe and Asia
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1488)
+  AUTHORS   Ecker,M., Allison,S.L., Meixner,T. and Heinz,F.X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-SEP-1998) Institute of Virology, University of
+            Vienna, Kinderspitalgasse 15, Vienna 1095, Austria
+FEATURES             Location/Qualifiers
+     source          1..1488
+                     /organism="Tick-borne encephalitis virus"
+                     /mol_type="genomic RNA"
+                     /strain="Pan"
+                     /db_xref="taxon:11084"
+     CDS             <1..>1488
+                     /codon_start=1
+                     /product="polyprotein"
+                     /protein_id="AAC62098.1"
+                     /db_xref="GI:3676802"
+                     /translation="SRCTHLENRDFVTGTQGTTRVTLVLELGGCVTITAEGKPSMDVW
+                     LDAIYQENPTKTREYCLHAKLSDTKVAARCPTMGPATLAEEHQGGTVCKRDQSDRGWG
+                     NHCGLFGKGSIVACVKAACEAKKKATGHVYDANKIVYTVKVEPHTGDYVAANETHSGR
+                     KTASFTVSSEKTILTMGEYGDVSLLCRVASGVDLAQTVILELDKTVEHLPTAWQVHRD
+                     WFNDLALPWKHEGAQNWNNAERLVEFGAPHAVKMDVYNLGDQTGVLLKALAGVPVAHI
+                     EGTKYHLKSGHVTCEVGLEKLKMKGLTYTVCDKTKFTWKRAPTDSGHDTVVMEVTFSG
+                     TKPCRIPVRAVAHGSPDVNVAMLITPNPTIENNGGGFIEMQLPPGDNIIYVGELSHQW
+                     FQKGSSIGRVFQKTRKGIERLTVIGEHAWDFGSAGGFLSSIGKAVHTVLGGAFNSIFG
+                     GVGFLPKLLLGVALAWLGLNMRNPTMSMSFLLAGGLVLAMTLGVGA"
+     mat_peptide     1..1488
+                     /product="envelope protein"
+                     /note="E"
+ORIGIN      
+        1 tcgcgttgca cacacttgga aaacagggac tttgtgactg gcactcaggg gaccacgagg
+       61 gtcaccttag tgctggaact gggtggatgt gtcaccataa cagcggaggg gaagccctca
+      121 atggatgtgt ggcttgacgc catctaccag gagaacccta ccaagacacg tgagtactgc
+      181 ttacatgcca agttgtcgga taccaaggtt gcagctagat gcccaacgat gggaccagcc
+      241 actctggctg aagagcacca gggtggtacc gtgtgcaaga gagatcaaag tgatcgaggc
+      301 tggggtaacc actgtggatt gtttggaaag ggtagcattg tggcctgtgt caaggcggct
+      361 tgtgaggcaa aaaagaaagc cacaggacat gtgtacgacg ccaacaaaat agtgtacacg
+      421 gtcaaagtcg agccacacac gggagactac gttgctgcaa acgagacaca tagtgggagg
+      481 aagacagcat ccttcacagt ttcttcagag aaaaccattc tgaccatggg ggagtatgga
+      541 gatgtgtctt tgttgtgcag ggtcgctagt ggcgttgact tggcccagac cgtcatcctt
+      601 gagcttgaca agacagtgga acaccttcca acggcttggc aggtccacag agactggttc
+      661 aatgatctgg ccctgccatg gaaacatgag ggagcgcaaa actggaataa cgcagaaaga
+      721 ctggttgaat ttggggcacc tcacgctgtc aagatggacg tgtacaacct cggagaccag
+      781 actggagtgt tactgaaagc tctcgctggg gtccctgtgg cacacattga gggaaccaag
+      841 tatcatctga agagcggcca tgtgacttgc gaagtgggac tggaaaaact gaagatgaaa
+      901 ggtctcacat acacagtgtg tgacaaaaca aagttcacat ggaagagagc tccaacagac
+      961 agtggacatg atacagtggt catggaagtc acattctctg gaacaaagcc ctgtaggatc
+     1021 ccagtcaggg cggtggcaca tggatctcca gatgtgaacg tagccatgct aataacacca
+     1081 aacccaacaa ttgaaaacaa tggaggtggc ttcatagaga tgcaactgcc cccaggggac
+     1141 aacatcatct atgttgggga actgagtcat caatggttcc aaaaagggag tagcattgga
+     1201 agggttttcc aaaagaccag gaaaggcata gagagactga cagtgatagg agagcacgcc
+     1261 tgggatttcg gttctgctgg cggctttttg agctcaattg gaaaggcggt ccacacggtc
+     1321 cttggtggtg ccttcaacag catcttcggg ggagtgggat ttcttccaaa gcttctatta
+     1381 ggagtggcac tggcctggtt gggcctgaac atgaggaacc ccacaatgtc catgagtttt
+     1441 ctcttggctg gaggtctggt cttggccatg acccttggag tgggggcg
+//

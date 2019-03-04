@@ -1,0 +1,32 @@
+LOCUS       GU208812                 263 bp    RNA     linear   VRL 01-DEC-2012
+DEFINITION  Hepatitis C virus isolate patient 39P 5' UTR.
+ACCESSION   GU208812
+VERSION     GU208812.1  GI:313585418
+KEYWORDS    .
+SOURCE      Hepatitis C virus
+  ORGANISM  Hepatitis C virus
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Hepacivirus.
+REFERENCE   1  (bases 1 to 263)
+  AUTHORS   Mahmood,T. and Bostan,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-NOV-2009) Biology, Quaid-i-Azam University, Islamabad
+            45320, Pakistan
+FEATURES             Location/Qualifiers
+     source          1..263
+                     /organism="Hepatitis C virus"
+                     /mol_type="genomic RNA"
+                     /isolate="patient 39P"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11103"
+                     /country="Pakistan: Rawalpindi"
+                     /collection_date="21-Jul-2006"
+     5'UTR           <1..>263
+ORIGIN      
+        1 ttatagggta acccgaaatg ggtcgatccg ttcggcaaag gttatacgcg tagtttggcg
+       61 cagaacccac gaggccccct gcgaggagag cgtaagcgcg tttgcagtga agcggtcggt
+      121 acaccggaat tgctggggtg accggggtca tttcttggaa caaacccggt caatacccag
+      181 taaatttggg gtgttaaccc ctccgcgaga ccgctatagc gcgcaaggag tacgtgtgtg
+      241 tgtgtggggg ggtcttccgc gcg
+//

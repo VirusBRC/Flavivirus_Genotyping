@@ -1,0 +1,55 @@
+LOCUS       JQ791403                 573 bp    RNA     linear   VRL 08-AUG-2012
+DEFINITION  Hepatitis C virus isolate a8-19 core protein gene, partial cds.
+ACCESSION   JQ791403
+VERSION     JQ791403.1  GI:388891201
+KEYWORDS    .
+SOURCE      Hepatitis C virus
+  ORGANISM  Hepatitis C virus
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Hepacivirus.
+REFERENCE   1  (bases 1 to 573)
+  AUTHORS   Xu,C.H., Shen,T., Zheng,J.J., Tu,J., Zhang,W.D. and Lu,F.M.
+  TITLE     Higher dN/dS ratios in the HCV core gene, but not in the E1/HVR1
+            gene, are associated with human immunodeficiency virus-associated
+            immunosuppression
+  JOURNAL   Arch. Virol. (2012) In press
+   PUBMED   22825695
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 573)
+  AUTHORS   Xu,C.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2012) Department of Microbiology, Peking
+            University Health Science Center, Xueyuan Rd., Haidian District,
+            Beijing 100191, China
+FEATURES             Location/Qualifiers
+     source          1..573
+                     /organism="Hepatitis C virus"
+                     /mol_type="genomic RNA"
+                     /isolate="a8-19"
+                     /host="Homo sapiens; female"
+                     /db_xref="taxon:11103"
+                     /country="China"
+                     /collection_date="25-Aug-2009"
+                     /collected_by="Chunhui Xu"
+                     /note="genotype: 1b"
+     CDS             1..>573
+                     /codon_start=1
+                     /product="core protein"
+                     /protein_id="AFK80510.1"
+                     /db_xref="GI:388891202"
+                     /translation="MSTNPKPQRKTNRNTNRRPQDVKFPGGGQIVGGVYLLPRRGPKL
+                     GVRATRKTSERSHPRGRRQPIPKARRPEGRTWAQPGYPWPLYGNEGLGWAGWLLSPRG
+                     SRPSWGPTDPRRRSRNLGKVIDTLPCGFADLMGYIPLVGAPLGGAARALAHGVRVPED
+                     GVNYATGNLPGCSFSIFFLALLSCLTIPASA"
+ORIGIN      
+        1 atgagcacaa atcctaaacc tcaaagaaaa accaaccgta acaccaaccg ccgcccacag
+       61 gacgtcaagt tcccgggcgg tggtcagatc gtcggtggag tttacctgtt gccgcgcagg
+      121 ggccccaagt tgggtgtgcg cgcgactagg aagacttccg agcggtcaca ccctcgtggg
+      181 aggcgacaac ctatccccaa ggctcgccga cccgagggca ggacctgggc tcagcccggg
+      241 tacccttggc ccctctacgg caatgagggc ttgggatggg caggatggct cctgtcaccc
+      301 cgtggctctc gtcctagttg gggccccacg gacccccggc gtaggtcgcg taatttgggt
+      361 aaggtcatcg ataccctccc atgcggcttc gccgacctca tggggtacat tccgctcgtc
+      421 ggcgcccccc tagggggcgc tgccagggcc ctggcacatg gtgtccgggt tccggaggac
+      481 ggcgtgaact acgcaacagg gaatttaccc ggttgctctt tctctatttt cttcttggct
+      541 ctgctgtcct gtttgaccat cccagcttcc gct
+//

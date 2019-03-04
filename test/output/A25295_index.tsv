@@ -1,0 +1,2 @@
+#	Job_name	short_name	defline	species	region	position	status(geno)	BI(geno)	genotype	subtype	status(recomb)	BI(recomb)	recombinant	subtype	comment(geno)
+1	A25295	_seq001	A25295	HCV	NA	   1..93	Failed	BI=1.000	genotype=NA	sub=NA	Skip	BI=	genotype=NA	sub=NA	Input genome is too short: 93

@@ -1,0 +1,61 @@
+LOCUS       KF383114                 708 bp    RNA     linear   VRL 15-MAR-2014
+DEFINITION  Zika virus strain AnD30332 nonstructural protein 5 gene, partial
+            cds.
+ACCESSION   KF383114
+VERSION     KF383114.1  GI:592746955
+KEYWORDS    .
+SOURCE      Zika virus
+  ORGANISM  Zika virus
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Flaviviridae; Flavivirus; Spondweni virus group.
+REFERENCE   1  (bases 1 to 708)
+  AUTHORS   Faye,O., Freire,C.C., Iamarino,A., Faye,O., de Oliveira,J.V.,
+            Diallo,M., Zanotto,P.M. and Sall,A.A.
+  TITLE     Molecular evolution of Zika virus during its emergence in the
+            20(th) century
+  JOURNAL   PLoS Negl Trop Dis 8 (1), E2636 (2014)
+   PUBMED   24421913
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 708)
+  AUTHORS   Faye,O., Freire,C.C.M., Chen,R., Iamarino,A., Faye,O.,
+            Oliveira,J.V.C., Diallo,M., Weaver,S.C., Zanotto,P.M.A. and
+            Sall,A.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-JUN-2013) Microbiology, University of Sao Paulo,
+            Lineu Prestes Ave, Sao Paulo, Sao Paulo 05508-000, Brazil
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..708
+                     /organism="Zika virus"
+                     /mol_type="genomic RNA"
+                     /strain="AnD30332"
+                     /db_xref="taxon:64320"
+                     /country="Senegal"
+                     /collection_date="1979"
+     CDS             <1..>708
+                     /note="NS5"
+                     /codon_start=1
+                     /product="nonstructural protein 5"
+                     /protein_id="AHL43499.1"
+                     /db_xref="GI:592746956"
+                     /translation="RFLEFEALGFLNEDHWMGRENSGGGVEGLGLQRLGYILEEMNRA
+                     PGGKMYADDTAGWDTRISKFDLENEALITNQMEEEHRALALAVIKYTYQNKVVKVLRP
+                     AEGGKTVMDIISRQDQRGSGQVVTYALNTFTNLVVQLIRNMEAEEVLEMHDLWLLRKP
+                     EKVTRWLQSNGWDRLKRMAVSGDDCVVKPIDDRFAHALRFLNDMGKVRKDTQEWKPST
+                     GWSNWEEVPFCSHHFNKL"
+ORIGIN      
+        1 agatttttgg agtttgaagc tcttggattc ttgaacgagg accattggat ggggagagaa
+       61 aactcaggag gtggcgttga agggctagga ctgcaaaggc ttggatatat cctagaagaa
+      121 atgaaccggg caccaggagg aaagatgtat gcagatgaca ccgctggctg ggacacccgc
+      181 attagcaagt ttgatctaga gaatgaagcc ctgatcacta accagatgga agaagagcac
+      241 agagctctgg cgttggccgt gattaaatac acataccaaa acaaagtggt gaaggttctc
+      301 agaccagctg aaggagggaa aacagtcatg gacatcatct caagacaaga ccagagaggg
+      361 agcggacaag ttgttactta tgctctcaac acattcacca acctggtggt gcagcttatc
+      421 cggaacatgg aggctgagga agtgctagag atgcatgatc tgtggttgtt gaggaagcca
+      481 gagaaagtga ccagatggtt gcagagcaat ggatgggaca gactcaaacg gatggcagtt
+      541 agtggagatg actgcgttgt aaagccaatt gatgataggt ttgcacatgc cctcaggttc
+      601 ttgaatgaca tgggaaaggt taggaaagac acacaggaat ggaaaccctc gactggatgg
+      661 agcaattggg aagaggtccc gttctgttct caccacttca acaagctg
+//

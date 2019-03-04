@@ -1,0 +1,66 @@
+LOCUS       YFU52422                1320 bp    mRNA    linear   VRL 21-JAN-2000
+DEFINITION  Yellow fever virus Uga48 core, pre-membrane, membrane and envelope
+            proteins mRNA, partial cds.
+ACCESSION   U52422
+VERSION     U52422.1  GI:1354441
+KEYWORDS    .
+SOURCE      Yellow fever virus
+  ORGANISM  Yellow fever virus
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Flavivirus; Yellow fever virus group.
+REFERENCE   1  (sites)
+  AUTHORS   Wang,E., Weaver,S.C., Shope,R.E., Tesh,R.B., Watts,D.M. and
+            Barrett,A.D.
+  TITLE     Genetic variation in yellow fever virus: duplication in the 3'
+            noncoding region of strains from Africa
+  JOURNAL   Virology 225 (2), 274-281 (1996)
+   PUBMED   8918913
+REFERENCE   2  (bases 1 to 1320)
+  AUTHORS   Wang,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-MAR-1996) Eryu Wang, University of Texas Medical
+            Branch, Pathology, Galveston, TX 77555-0609, USA
+FEATURES             Location/Qualifiers
+     source          1..1320
+                     /organism="Yellow fever virus"
+                     /mol_type="mRNA"
+                     /strain="Uga48"
+                     /db_xref="taxon:11089"
+     CDS             119..>1320
+                     /note="Core, pre-membrane, membrane and envelope proteins"
+                     /codon_start=1
+                     /product="polyprotein"
+                     /protein_id="AAB01975.1"
+                     /db_xref="GI:1354442"
+                     /translation="MSGRKAQGKTLGLNMVRRGVRSLSNKIKQKTKQIGNRPGPSRGV
+                     QGFIFFFLFNILTGKKLTTHLKRLWRMLDPRQGLTVLRKVKRVVASLMRGLSSRKRRS
+                     SEMTMMPLLILSMVILGGGVHIVRKNRWLLLNVTAEDLGKTFSVGTGNCTTNILEGKY
+                     WCPDSMEYNCPNLSPREEPDDIDCWCYGVENVRVAYGRCDAVGRSKRSRRAIDLPTHE
+                     NHGLKTRQEKWMTGRMGERQLQKIERWLVRNPFFAVTALAIAYLVGNNKTQRVVIALL
+                     VLAVGPAYSAHCIGITDRDFIEGVHGGTWVSASLEQDKCVTVMAPDKPSLDISLQTVA
+                     IDGPAEARKVCYSAVLTHVKINDKCPSTGEAHLAEENDGDNACKRTYSDRGWGNGCGL
+                     FGKGSIVA"
+ORIGIN      
+        1 agtaaatcct gtgtgctaat tgaggtgcat tggtctgcaa atcgagttgc taggcaataa
+       61 acacatttgg attaatttta atcgttcttt gagcgattag cagagaactg accagaaaat
+      121 gtctggtcga aaagctcagg gtaaaaccct gggcctcaat atggtaagac gaggagtacg
+      181 ctccttgtca aacaaaataa aacaaaaaac aaaacagatt ggaaacagac ctggcccttc
+      241 aagaggtgtt caaggattta ttttcttctt tttgttcaac attctaactg ggaaaaaatt
+      301 aaccacccac ctgaaaaggc tttggaggat gcttgatccc cgacaaggac ttactgttct
+      361 aaggaaagtc aagagagtgg tagccagttt gatgagaggg ttgtcttcta ggaagcgtcg
+      421 ctccagtgag atgaccatga tgccacttct gatcttgagc atggtgattc taggtggagg
+      481 ggtgcacatc gtccggaaaa atcgatggct gcttttgaat gtcacagctg aggacttggg
+      541 gaagacgttc tcggtgggaa ccgggaactg tacaaccaac attcttgagg gcaagtactg
+      601 gtgtcccgat tcaatggaat acaactgtcc caaccttagt cctagagagg agcctgatga
+      661 cattgactgt tggtgttatg gagtagaaaa cgtcagagta gcctatggaa ggtgtgatgc
+      721 agtgggaagg tcaaaacgtt ctaggagagc aattgatctg cccacacatg aaaatcacgg
+      781 actgaaaact cgacaggaga aatggatgac gggcagaatg ggtgagcggc aactccaaaa
+      841 gattgagcgg tggctagtga gaaatccatt ctttgccgta acagccctgg ccattgctta
+      901 cttggtgggc aacaacaaga cacaacgtgt tgttatagct ctgttggttt tggcagttgg
+      961 tccggcctat tctgcacact gcattgggat aactgacaga gacttcattg agggggtcca
+     1021 cggaggcact tgggtgtcag cttctctgga gcaggacaag tgcgtgactg tcatggcgcc
+     1081 tgataaacca tcactggaca tctcgcttca aacagtggcg atagatgggc ctgctgaggc
+     1141 aaggaaggtc tgctacagtg cagttctcac ccatgtgaaa atcaatgaca aatgcccgag
+     1201 caccggtgag gctcacctcg ctgaggaaaa tgatggtgat aacgcctgca aacggacata
+     1261 ctcagataga ggctggggca atggctgtgg gctatttggg aaagggagca ttgtggcatg
+//

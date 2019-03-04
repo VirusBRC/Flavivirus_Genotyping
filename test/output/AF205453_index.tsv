@@ -1,0 +1,2 @@
+#	Job_name	short_name	defline	species	region	position	status(geno)	BI(geno)	genotype	subtype	status(recomb)	BI(recomb)	recombinant	subtype	comment(geno)
+1	AF205453	_seq001	AF205453	STLOUIS	NA	   1..1617	Success	BI=1.000	genotype=1A	sub=NA	Skip	BI=	genotype=NA	sub=NA	

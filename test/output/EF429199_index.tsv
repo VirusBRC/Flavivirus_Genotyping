@@ -1,0 +1,2 @@
+#	Job_name	short_name	defline	species	region	position	status(geno)	BI(geno)	genotype	subtype	status(recomb)	BI(recomb)	recombinant	subtype	comment(geno)
+1	EF429199	_seq001	EF429199	WESTNILE	NA	   1..11052	Success	BI=1.000	genotype=2	sub=NA	Skip	BI=	genotype=NA	sub=NA	

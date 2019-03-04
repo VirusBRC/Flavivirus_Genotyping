@@ -1,0 +1,30 @@
+LOCUS       DD030828                  30 bp    DNA     linear   PAT 04-NOV-2005
+DEFINITION  SELF REPLICATING RNA MOLECULE FROM HEPATITIS C VIRUS.
+ACCESSION   DD030828
+VERSION     DD030828.1  GI:92601873
+KEYWORDS    JP 2004516039-A/16.
+SOURCE      Hepatitis C virus
+  ORGANISM  Hepatitis C virus
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Hepacivirus.
+REFERENCE   1  (bases 1 to 30)
+  AUTHORS   George,K. and Animu,P.
+  TITLE     SELF REPLICATING RNA MOLECULE FROM HEPATITIS C VIRUS
+  JOURNAL   Patent: JP 2004516039-A 16 03-JUN-2004;
+            BOEHRINGER INGELHEIM (CANADA) LTD
+COMMENT     OS   HCV
+            PN   JP 2004516039-A/16
+            PD   03-JUN-2004
+            PF   20-DEC-2001 JP 2002553495
+            PR   22-DEC-2000 US    60/257857
+            PI   kukoru george,posu animu
+            CC
+            FH   Key             Location/Qualifiers.
+FEATURES             Location/Qualifiers
+     source          1..30
+                     /organism="Hepatitis C virus"
+                     /mol_type="unassigned DNA"
+                     /db_xref="taxon:11103"
+ORIGIN      
+        1 acgcagaaag cgtctagcca tggcgttagt
+//

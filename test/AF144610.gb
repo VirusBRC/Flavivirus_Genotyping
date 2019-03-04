@@ -1,0 +1,66 @@
+LOCUS       AF144610                1116 bp    RNA     linear   VRL 23-AUG-2001
+DEFINITION  Bovine viral diarrhea virus-1 isolate 519 structural glycoprotein
+            E2 (E2) gene, complete cds.
+ACCESSION   AF144610
+VERSION     AF144610.1  GI:6049232
+KEYWORDS    .
+SOURCE      Bovine viral diarrhea virus-1 isolate 519
+  ORGANISM  Bovine viral diarrhea virus-1 isolate 519
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Pestivirus.
+REFERENCE   1  (bases 1 to 1116)
+  AUTHORS   Becher,P., Orlich,M., Kosmidou,A., Konig,M., Baroth,M. and
+            Thiel,H.J.
+  TITLE     Genetic diversity of pestiviruses: identification of novel groups
+            and implications for classification
+  JOURNAL   Virology 262 (1), 64-71 (1999)
+   PUBMED   10489341
+REFERENCE   2  (bases 1 to 1116)
+  AUTHORS   Becher,P. and Orlich,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-APR-1999) Justus-Liebig-Universitaet Giessen,
+            Institut fuer Virologie (Fachbereich Veterinaermedizin),
+            Frankfurter Str. 107, Giessen D-35392, Germany
+FEATURES             Location/Qualifiers
+     source          1..1116
+                     /organism="Bovine viral diarrhea virus-1 isolate 519"
+                     /mol_type="genomic RNA"
+                     /isolate="519"
+                     /host="Bos taurus"
+                     /db_xref="taxon:99472"
+     gene            <1..>1116
+                     /gene="E2"
+     CDS             <1..>1116
+                     /gene="E2"
+                     /codon_start=1
+                     /product="structural glycoprotein E2"
+                     /protein_id="AAF02516.1"
+                     /db_xref="GI:6049243"
+                     /translation="YPDCRPDFSYAIAKDEKIGPLGAESLTTAWKDYSPGMRLVDTMV
+                     VAWCKDGQFTIMERCAREARYLAILHRRALPTSVVFRKLFDAKRQENIVEMGDNFEFG
+                     LCPCDARPVVRGKFNTTLLNGAAFQMVCPIGWTGSVSCMLANEDTLDTTVVQTYRRSK
+                     PFPYRQGCITQKVVGEDLHDCTLGGNWTCVVGEQLRYTGGHIESCKWCGYRFLKGEGL
+                     PHYPIGKCKLENETGYRLVDDTSCNRDGVAIVPQGTVKCRIGDTVVQVIALDTKLGPM
+                     PCRPHEIISSEGPVEKTACTFNYTRTLNNKYFEPRDSYFQQYMLKGEYQYWFDLEVTD
+                     HHRDYFAESILVIVVALLGGRYVLWLLVTYMVLSEQMA"
+ORIGIN      
+        1 tacccagact gtagacctga tttctcatac gccatagcaa aggatgaaaa gattggccct
+       61 ttaggtgccg aaagccttac caccgcttgg aaagactact caccaggaat gaggttggta
+      121 gacacgatgg tcgtagcctg gtgcaaagac ggccagttta ccatcatgga aaggtgtgca
+      181 agagaggcca gatatctggc aatcttgcat agaagagccc taccaacctc tgtagtattt
+      241 agaaaattat ttgatgcaaa gaggcaggaa aacatagttg aaatgggaga caactttgaa
+      301 ttcggacttt gcccatgtga tgccagaccc gtagtgagag ggaaattcaa tacaactctg
+      361 ctaaacgggg cggccttcca aatggtatgt cccataggat ggacggggtc tgtcagctgt
+      421 atgctagcca atgaagatac cttagacaca actgtagtac agacatatag gaggtccaaa
+      481 ccattcccct acagacaagg ctgtatcacc caaaaagtcg taggggagga cctccatgac
+      541 tgtacccttg gaggaaactg gacatgtgta gtgggggagc aactacgata cacagggggt
+      601 cacatcgaat catgcaagtg gtgcggttac agattcctaa agggtgaggg gctaccacat
+      661 tacccgattg gcaagtgtaa gctagagaat gagactggct acaggctagt ggatgacact
+      721 tcttgcaata gggacggtgt ggccatagta ccacagggga cagtgaaatg caggatagga
+      781 gatacggttg tacaggttat tgctttggac accaaactcg ggcctatgcc ttgcagacca
+      841 catgagatca tatcaagtga gggacctgtg gaaaagacgg cgtgcacctt caattataca
+      901 aggacattaa acaacaaata cttcgagcct agggacagtt actttcagca atatatgcta
+      961 aaaggagagt atcaatactg gtttgacctc gaggtcacag atcaccaccg ggattacttc
+     1021 gccgaatcta tattggtgat agtggtggcc ctgttgggtg gtagatacgt gctatggttg
+     1081 ctggtcacgt atatggtttt atcagaacaa atggcc
+//

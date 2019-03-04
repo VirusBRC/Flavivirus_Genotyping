@@ -1,0 +1,47 @@
+LOCUS       AB287451                 169 bp    RNA     linear   VRL 15-JUN-2007
+DEFINITION  Norovirus oyster/cultured/GII/ISJan06c/06/JP gene for capsid
+            protein, partial cds.
+ACCESSION   AB287451
+VERSION     AB287451.1  GI:148839090
+KEYWORDS    .
+SOURCE      Norovirus oyster/cultured/GII/ISJan06c/06/JP
+  ORGANISM  Norovirus oyster/cultured/GII/ISJan06c/06/JP
+            Viruses; ssRNA positive-strand viruses, no DNA stage;
+            Caliciviridae; Norovirus.
+REFERENCE   1
+  AUTHORS   Takahashi,K.G., Muroga,K., Maekawa,F. and Kato,A.
+  TITLE     Genetic analysis of noroviruses in wild and cultured oysters in
+  JOURNAL   Published Only in Database (2007)
+REFERENCE   2  (bases 1 to 169)
+  AUTHORS   Takahashi,K.G., Muroga,K., Maekawa,F. and Kato,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-DEC-2006) Fumihito Maekawa, Tohoku University,
+            Graduate School of Agricultural Science; 1-1, Tsutsumi-dori,
+            Amamiya-machi, Sendai, Miyagi 981-8555, Japan
+            (E-mail:maekawa@bios.tohoku.ac.jp, Tel:81-22-717-8725)
+FEATURES             Location/Qualifiers
+     source          1..169
+                     /organism="Norovirus oyster/cultured/GII/ISJan06c/06/JP"
+                     /mol_type="genomic RNA"
+                     /strain="oyster/cultured/GII/ISJan06c/06/JP"
+                     /isolation_source="Pacific oyster Crassostrea gigas"
+                     /db_xref="taxon:417838"
+                     /country="Japan"
+     CDS             <1..>169
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="BAF64303.1"
+                     /db_xref="GI:148839091"
+                     /translation="GVDDAXPSDGSTANLVPEVNNEVMALEPVVGAAIAAPVAGQQNV
+                     IDPWIRNNFVQA"
+     CDS             <1..11
+                     /codon_start=3
+                     /product="polyprotein"
+                     /protein_id="BAF64304.1"
+                     /db_xref="GI:148839092"
+                     /translation="RR"
+ORIGIN      
+        1 ggcgtcgatg acgccncccc atctgatggg tccacagcca acctcgtccc agaggtcaac
+       61 aatgaggtta tggctttgga gcccgttgtt ggtgccgcga ttgcggcacc tgtagcgggc
+      121 caacaaaatg taattgaccc ctggattaga aataattttg tacaagcca
+//

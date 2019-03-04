@@ -1,0 +1,206 @@
+vipr_genotype.pl
+gsun@vecna.com
+Vecna Technologies, Inc
+
+
+Customization:
+1. Front-end of viprbrc.org, as an online tool:
+1) Untar the genotype-1.3.0.tar.gz file at /opt/tools
+2) Create a link at /usr/bin/vipr_genotype.pl -> /opt/tools/genotype-1.3/vipr_genotype.pl
+3) Create a link at /opt/tools/genotype-1.3 -> genotype-1.3.0
+These steps should make the script work.
+To install to a different directory, add following to vipr_genotype.pl:
+###################
+use lib ("/<base_dir>/genotype-1.3.0");
+###################
+
+2. Back-end data processing:
+1) The installation dir is assumed to be: /home/dbadmin/loader/ext/genotype
+Thus, this also assumes the user as dbadmin. If this dir is changed, add following line to vipr_genotype.pl:
+###################
+use lib ("/<base_dir>/genotype-1.3.0");
+###################
+
+
+Requirements:
+  This script requires following Perl modules:
+use File::Spec::Functions;
+use Bio::SeqIO;
+use English;
+use Carp;
+use Data::Dumper;
+use File::Temp;
+use version; our $VERSION = qv('1.2');
+use Getopt::Long;
+use IO::String;
+use POSIX qw(strftime ceil floor);
+use Bio::TreeIO;
+use Bio::AlignIO;
+use Scalar::Util 'refaddr';
+use Bio::Tools::Run::StandAloneBlast;
+
+require GenotypeDraw;
+use Genotype;
+
+
+Version 2.0.4: Dec 08, 2017
+1. Adds the position of the input sequence as an additional column in the index file
+
+Version 2.0.2-3: Nov 29, 2017
+1. Replaced built-in algorithm to parse pplacer output with cladinator from JCVI
+
+Version 2.0.0; July 06, 2017
+1. Added taxit/pplacer/guppy as alternative algorithm for HCV. This algorithm is 
+a heavily modified version of Tom Smith's code for Flu H1 classfication tool.
+  It requires:
+1a) taxit v0.6.4. If the version is v0.3.2, change the following line in:
+referenceData/hcv/HCVCladeClassn.stats from:
+=====================
+---  PhyML 20120412  ---
+======= to: =========
+  ---  PhyML v3.0  ---
+=====================
+1b) pplacer/guppy: pplacer-linux-v1.1.alpha19.zip
+1c) Also change the directory location of pplacer to actual value in
+referenceData/HCV-Advanced-IN-text-out-text.xml to:
+=====================
+  <Param name="pplacer" value="/opt/tools/pplacer-Linux-v1.1.alpha19"></Param>
+=====================
+1d) Needs MAFFT installed with:
+$ sudo rpm -Uvh mafft-7.307-gcc_fc6.x86_64.rpm
+
+
+Version 1.3.3
+1. Added functions to clean up the refseq ids: 
+Genotype_calctree::mapDefline, cleanupDefline, restoreDefline.
+2. Changed profile alignment program from muscle to clustalw, in order to minimize
+problem in partial query sequences.
+
+Version 1.3.0
+-Jun 13, 2014
+1. Added vipr_genotype_parallel.pl script, which would take extra option
+-nproc=n, and run n process in parallel. This should speed up the data
+processing by a factor close to n.
+  This required the Parallel::ForkManager module, which needs to be installed:
+1) perl -MCPAN -e shell; 
+2) force install Parallel::ForkManager
+2. Added Zika virus to the list of covered species. - Feb 03, 2016
+
+
+-Jun 06, 2013
+1.Incorporate the Norovirus into this tool.
+1a. Added capability to recognize the genotype in I.9 format.
+1b. Compiled the refseqs for ORF1.
+1c. Added the field region in the output file, so that more than one regions
+can be handled and might give different result:
+==================
+JN183159       genotype        ORF2       1..2177      BI=1.000 	genotype=I.9    NoVI    20130612104825  Success
+==================
+1d. Added field 'region' to index file.
+1e. Two graphs are produced for norovirus, one for ORF1 and one for ORF2.
+1f. Found a discrepancy between same refseq in different collections used in
+norotyping tool. This casts some doubt on the quality of the tool.
+==============
+II.4|Brist|X76716 TTAATATCTGTAACTTTAGGGGGGATGTTACCCATATTGCGGGTAGCCATGATTACACAA
+II.4|Brist|X76716 TTAATATCTGTAACTTTAGGGGG---GTTACCCA---TGCG------------TACACAA
+                  ***********************   ********   ****            *******
+
+II.4|Brist|X76716 TGAATTTGGCATCCCAAAATTGGAGCAATTATGACCCAACAGAAGAGATCCCAGCCCCCC
+II.4|Brist|X76716 TGAATTTGGCATCCCAAAATTGGAGCAATTATGACCCAACAGAAGAG---CCAGCCCCCC
+                  ***********************************************   **********
+
+II.4|Brist|X76716 TAGGAACGCCAGACTTTGTGGGAAAGATCCAAGGCTTGCTCACCCAGACCACAGCGGACG
+II.4|Brist|X76716 TAGGAACGCCAGACTTTGTGGGAAAGATCCAAGGCTTGCTCACCCA--------------
+                  **********************************************              
+
+II.4|Brist|X76716 GCTCGACCCGTGCCCACAAAGCTACAGTGAGCACTGGGAGTGTCCACTTCACTCCAAAGC
+II.4|Brist|X76716 ----GACACGTGCCCACAAAGCTACAGTGAGCACTGGGAGTGTCCACTTCACTCCAAAGC
+                      *** ****************************************************
+
+II.4|Brist|X76716 TGGGTAGTGTTCAATTCACCACTGACACGAACAATGATTTCCAAGCTGGCCAAAACACAA
+II.4|Brist|X76716 TGGGTAGTGTTCAATTCACCACTGACACGAA---------CCAA---GGCCAAAACACAA
+                  *******************************         ****   *************
+
+II.4|Brist|X76716 AATTCACCCCAGTTGGCGTCATCCACCACCAGAATGAACCCCAACAATGGTTACTCCCAA
+II.4|Brist|X76716 AATTCACCCCAGTTGGCGTCATC---------------------CAATGGTTACTCCCAA
+                  ***********************                     ****************
+==============
+1f. Added way to change the input taxon if the input file is in genbank
+format based on genotype result. This is useful for Norovirus, as the taxon is
+hard to determine based only on blast. If the input is fasta, the taxon will
+be either from command line input, or blast result.
+1g. Modified the way to calculate $TH_min_num_windows in sub summ_recomb,
+in order to handle short input sequences.
+1h. Need to add capability to determine region (ORF1 or ORF2) for norovirus,
+since some short input sequences only cover one region and there is no need to
+calculate both regions.
+1i. Modified the code to do 2 genotype analysis for each Norovirus genome.
+1j. Standard result for AB039774:
+===============
+#       Job_name        short_name      defline species region  status(geno)       BI(geno)        genotype        status(recomb)  BI(recomb)       recombinant     comment(geno)
+1       AB039774        _seq001 AB039774        NoVI    ORF1    Success	BI=1.000        genotype=I.Pc   sub=NA          BI=     genotype=NA
+2       AB039774        _seq001 AB039774        NoVI    ORF2    Success	BI=1.000        genotype=I.5    sub=NA          BI=     genotype=NA
+===============
+
+
+
+Version 1.2.2, Changes:
+-Feb. 11, 2013
+1. Added 'NA' to all genotype statements, so that it appears in all cases.
+2. Separated the graph drawing functionality into another script, so that when
+recombination analysis is not needed, the GD library doesn't need to be
+installed. This is for the convenience of the backend processing.
+3. Removed the -graph commandline option, as it's not useful in term of
+avoiding the GenotypeDraw.pm module when no graph is needed.
+
+Version 1.2.1, Changes:
+Jan 29, 2013
+##### Change #1 has been reverted in V1.2.2 #####
+1. Added commandline option -graph to request a graph for the recombination
+result. Without this option, a graph won't be generated.
+##### #####
+2. Added commandline option -debug to turn on all debug messages.
+3. Added a facility script, vipr_genotype_test.pl, to search for all genomes in
+test subdirectory, run the script for all, and compare the genotype
+result with earlier result that is stored in test/output. A summary of all
+Success/Fail is generated when the script finishes.
+3. For genbank input file, if the taxon is not defined by the user, the taxon
+will be obtained from the taxid within the genbank file. This is preferred
+over the process built in the script.
+
+
+Version 1.2, Changes:
+Mar 21, 2012
+1. Added capability to process multiple sequences from one fasta file. As a
+result, the output files are named as <root>_seq001.*.
+2. Added a index file (<root>_index.tsv) containing the job_name, sequence name, defline,
+species, genotype result, and recombination result.
+3. Added a file named <root>_finished.txt, which is only written right before
+the script finishes. This would indicate the end of the process, and any post
+processing may begin. The content of the the file simply lists how many
+sequences has been process.
+
+Jan 25, 2012
+1. Added capability to process genomes in following species:
+West Nile, 
+Japanese encephalitis, 
+St Louis encephalitis, 
+Tick-borne encephalitis, 
+Yellow Fever, 
+Murray Valley encephalitis, and 
+Bovine viral diarrhea virus.
+2. Fixed several problems related to recombination analysis.
+
+Version 1.1, Changes:
+Nov 16, 2011
+1. Added capability to process Dengue genomes
+2. Separated the filename from the name of the sequence in a fasta file
+3. Added capability to draw a bar graph, using GD library and GD::Graph Perl module
+4. Output genotype result and recombination result to separate files
+
+Version 1.0.0
+1. Modeled after script from VBRC.org
+2. Handles HCV genomes
+3. Requires MUSCLE to align input genome with refseqs, dnadist from phylip to create distance matrix, and FastME to generate phylogeny tree
+4. Converted newickBI.pl to a subroutine. Also modified the code inside for clearity and newer version of BioPerl
+

@@ -1,0 +1,2 @@
+#	Job_name	short_name	defline	species	region	position	status(geno)	BI(geno)	genotype	subtype	status(recomb)	BI(recomb)	recombinant	subtype	comment(geno)
+1	AF144610	_seq001	AF144610	BOVDIARRHEA1	NA	   1..1116	Success	BI=1.000	genotype=1c	sub=NA	Skip	BI=	genotype=NA	sub=NA	

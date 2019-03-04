@@ -1,0 +1,5 @@
+usage: taxit [-h] [-V] [-v] [-q]
+             
+             {help,add_nodes,add_to_taxtable,check,composition,count_taxids,create,findcompany,info,lonelynodes,merge,merge_taxtables,new_database,refpkg_intersection,reroot,rollback,rollforward,rp,strip,taxids,taxtable,update,update_taxids}
+             ...
+taxit: error: argument subparser_name: invalid choice: 'HCVCladeClassn.fasta' (choose from 'help', 'add_nodes', 'add_to_taxtable', 'check', 'composition', 'count_taxids', 'create', 'findcompany', 'info', 'lonelynodes', 'merge', 'merge_taxtables', 'new_database', 'refpkg_intersection', 'reroot', 'rollback', 'rollforward', 'rp', 'strip', 'taxids', 'taxtable', 'update', 'update_taxids')

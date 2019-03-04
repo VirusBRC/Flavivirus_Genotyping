@@ -1,0 +1,53 @@
+LOCUS       JQ748081                 528 bp    RNA     linear   VRL 06-AUG-2012
+DEFINITION  Hepatitis C virus isolate P2_Be4 polyprotein gene, partial cds.
+ACCESSION   JQ748081
+VERSION     JQ748081.1  GI:393798315
+KEYWORDS    .
+SOURCE      Hepatitis C virus
+  ORGANISM  Hepatitis C virus
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Hepacivirus.
+REFERENCE   1  (bases 1 to 528)
+  AUTHORS   Farci,P., Wollenberg,K., Diaz,G., Engle,R.E., Lai,M.E.,
+            Klenerman,P., Purcell,R.H., Pybus,O.G. and Alter,H.J.
+  TITLE     Profibrogenic chemokines and viral evolution predict rapid
+            progression of hepatitis C to cirrhosis
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. (2012) In press
+   PUBMED   22829669
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 528)
+  AUTHORS   Farci,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAR-2012) HHS, NIH-NIAID, 50 South Drive, Bldg. 50,
+            Room 6529, Bethesda, MD 20892-8009, USA
+FEATURES             Location/Qualifiers
+     source          1..528
+                     /organism="Hepatitis C virus"
+                     /mol_type="genomic RNA"
+                     /isolate="P2_Be4"
+                     /isolation_source="serum from patient 2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11103"
+                     /country="USA"
+                     /note="genotype: 1b"
+     CDS             <1..>528
+                     /note="contains E1 and E2 proteins"
+                     /codon_start=1
+                     /product="polyprotein"
+                     /protein_id="AFN22528.1"
+                     /db_xref="GI:393798316"
+                     /translation="MMNWSPTAALVVSQLLRIPQAVVDMVAGAHWGVLAGLAYYSMVG
+                     NWAKVLIVMLLFAGVDGTGTYVTGGAQGRSTHQFTTLFSFGASQNIQLINTNGSWHIN
+                     RTALNCNDSLQTGFLAALFYTHKFNASGCPERMASCRPIDKFAQGWGPITYAQADSPD
+                     QRPYCWHYAPKPCGII"
+ORIGIN      
+        1 atgatgaact ggtcacccac agcagcccta gtggtgtcgc agttactccg gatcccacaa
+       61 gctgtcgtgg acatggtngc gggggcccac tggggagtcc tggcgggcct cgcctactat
+      121 tccatggtgg ggaactgggc taaggttttg attgtgatgc tactctttgc tggcgtggac
+      181 gggaccggca cttacgtgac ggggggggcg caaggccgct ccacccacca gttcacgacc
+      241 cttttctcat ttggggcgtc tcagaacatc cagcttataa acaccaatgg cagttggcat
+      301 atcaacagaa ctgccctgaa ctgcaatgac tccctccaga ctgggtttct tgccgcgctg
+      361 ttctacacgc acaagttcaa cgcgtccgga tgcccggagc gcatggccag ctgtcgcccc
+      421 atcgacaagt tcgctcaggg gtggggtccc atcacttatg ctcaggctga cagcccggac
+      481 cagaggccct actgctggca ctacgcgcct aaaccgtgtg gtatcata
+//

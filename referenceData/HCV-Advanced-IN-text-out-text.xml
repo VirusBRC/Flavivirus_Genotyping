@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Config>
+  <Param name="input" value="text"></Param>
+  <Param name="output" value="text"></Param>
+
+  <Param name="flutype" value="A"></Param>
+  <Param name="serotype" value="HCV"></Param>
+  <Param name="seg" value="4"></Param>
+
+  <Param name="Type" value="HxNy"></Param>
+  <Param name="Type_tree" value="Advanced"></Param>
+  <Param name="Node_lookup" value="HCVCladeClassn.node.lookup"></Param>
+
+  <Param name="TempDir" value="/tmp"></Param>
+  <Param name="ClassifierDir" value="__DATE__/hcv.advanced"></Param>
+  <Param name="ClassifierPattern" value="__DATE__"></Param>
+
+  <Param name="HAlign" value="output.profile.afa"></Param>
+  <Param name="HRefpkg" value="HCV.refpkg"></Param>
+  <Param name="HStat" value="HCVCladeClassn.stats"></Param>
+  <Param name="HTree" value="HCVCladeClassn.tree"></Param>
+  <Param name="lookupfile" value="HCVCladeClassn.tree.lookup"></Param>
+
+  <Param name="pplacer" value="/opt/tools/pplacer-Linux-v1.1.alpha19"></Param>
+  <Param name="taxit" value="/usr/local/bin/taxit"></Param>
+
+  <Param name="DB_HOST" value="ip-10-0-1-25.ec2.internal"></Param>
+  <Param name="DB_PLATFORM" value="Oracle"></Param>
+  <Param name="DB_NAME" value="BRCSTG11"></Param>
+  <Param name="DB_PASSWORD" value="dots#2"></Param>
+  <Param name="DB_USER" value="dots"></Param>
+
+  <Param name="Lower_Threshold" value="83"></Param>
+  <Param name="Upper_Threshold" value="85"></Param>
+  <Param name="blastall" value="/home/idaily/bin/blastall"></Param>
+  <Param name="blastdb" value="H1CladeClassn.fasta"></Param>
+  <Param name="blastdir" value="blastdb"></Param>
+  <Param name="formatdb" value="/home/idaily/bin/formatdb"></Param>
+</Config>

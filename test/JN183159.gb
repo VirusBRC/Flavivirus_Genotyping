@@ -1,0 +1,102 @@
+LOCUS       JN183159                2177 bp    RNA     linear   VRL 28-FEB-2012
+DEFINITION  Norovirus Hu/GI.9/S48/2008/Lilla Edet/Sweden RNA-dependent RNA
+            polymerase and capsid protein (VP1) genes, partial cds.
+ACCESSION   JN183159
+VERSION     JN183159.1  GI:373841881
+KEYWORDS    .
+SOURCE      Norovirus Hu/GI.9/S48/2008/Lilla Edet/Sweden
+  ORGANISM  Norovirus Hu/GI.9/S48/2008/Lilla Edet/Sweden
+            Viruses; ssRNA positive-strand viruses, no DNA stage;
+            Caliciviridae; Norovirus.
+REFERENCE   1  (bases 1 to 2177)
+  AUTHORS   Nenonen,N.P., Hannoun,C., Larsson,C.U. and Bergstrom,T.
+  TITLE     Marked genomic diversity of norovirus genogroup I strains in a
+            waterborne outbreak
+  JOURNAL   Appl. Environ. Microbiol. 78 (6), 1846-1852 (2012)
+   PUBMED   22247153
+REFERENCE   2  (bases 1 to 2177)
+  AUTHORS   Nenonen,N.P., Hannoun,C.B., Larsson,C.U. and Bergstrom,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JUN-2011) Infectious Diseases/Virology, University of
+            Gothenburg, Guldhedsgatan 10B, Gothenburg 413 46, Sweden
+FEATURES             Location/Qualifiers
+     source          1..2177
+                     /organism="Norovirus Hu/GI.9/S48/2008/Lilla Edet/Sweden"
+                     /mol_type="genomic RNA"
+                     /strain="S48/2008/L.Edet"
+                     /isolate="p48"
+                     /isolation_source="feces"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1134639"
+                     /country="Sweden"
+                     /collection_date="2008"
+                     /note="genotype: GI.9"
+     CDS             <1..575
+                     /note="ORF1"
+                     /codon_start=3
+                     /product="RNA-dependent RNA polymerase"
+                     /protein_id="AEY77022.1"
+                     /db_xref="GI:373841882"
+                     /translation="ALSEVTGLAPDVLQSQSYFSFYGDDEIVSTDVEFDPVKLTQVLK
+                     EYGLKPTRPDKSEGPIIVKQCVDGLVFLRRTISRDAAGYQGRLDRNSIERQLWWTRGP
+                     NHDDPFETLVPHQQRKIQLISLLGEAALHGEKFYRKIANRVIQEVKEGGLELYVPGWQ
+                     PMFRWMRFHDLSLWAGDRNLLPDYVNDDGV"
+     gene            559..>2177
+                     /gene="VP1"
+     CDS             559..>2177
+                     /gene="VP1"
+                     /note="ORF2"
+                     /codon_start=1
+                     /product="capsid protein"
+                     /protein_id="AEY77023.1"
+                     /db_xref="GI:373841883"
+                     /translation="MMMASKDATSNMDGTSGAGQLVPENNNTSEPINMEPVAGAVTAA
+                     ATAGQVNMIDPWIMNNYVQAPQGEFTISPNNTPGDILFDLQLGPHLNPFLAHLSQMYN
+                     GWVGNMKVRVVLAGNAFSAGKIIVCCIPPGFSAPNISIAQATMFPHVIADVRVLEPID
+                     IPLDDVRNVLFHTNDNGNQTMRLLCMLYTPLRSGGTSSGTDPFVIAGRVLTCPTPDFN
+                     FLFLVPPTVEQKTKQFSVPNLPLNVMSNSRVPSLLNAMVVSPDQAQVVQFQNGRCTLD
+                     GQMLGTTTVSASCVARFRGKTFQAPDDRLGINLAEISGEPYHAFESPAPLGFPDFGDG
+                     DWHVTATKVAPSQLEANDPVVVGNVQPYNLQFAPHLGTLVVENPTPNQVATGTDLLFN
+                     ITWLSNRANNRFNPWIIPNYGSTLTEAAQLAPSIFPPGFGETIVYFNSTFPAVGATTH
+                     AAIPCLLPQEFVAHFVNEQAPIRGEAALLHYIDPDTHRNLGEFKIYPEGFVTCVPNVG
+                     GTGPQSLPTNGIFVFVSWVSRYYQLKPVGTAT"
+ORIGIN      
+        1 gtgccctttc agaggtaaca ggtctggcac ctgatgtcct gcagtctcaa tcatatttct
+       61 ctttttatgg agatgatgaa attgtgtcaa ctgatgtaga atttgaccct gtgaaactca
+      121 cgcaggtact taaagaatat ggcttaaaac ccactcgccc tgacaaatca gaagggccca
+      181 tcatagtgaa gcaatgtgtg gatggtctgg ttttcctaag gcgcaccata tcgagggacg
+      241 ccgcagggta ccaagggcga ctagatcgta actccataga aagacaactc tggtggaccc
+      301 ggggcccaaa tcatgatgat ccatttgaaa ctttggtgcc tcaccagcaa agaaaaatac
+      361 aattgatttc cttacttggg gaggctgcac ttcatggaga aaaattctac agaaagattg
+      421 ccaacagagt gattcaggaa gtcaaagagg ggggccttga gctctatgtg cccggctggc
+      481 agcccatgtt tcgctggatg cggttccatg atctgagctt gtgggcagga gatcgcaatc
+      541 tcctscccga ttatgtaaat gatgatggcg tctaaggacg ctacctcaaa catggatggc
+      601 accagcggag ctggacaact ggtgccagag aataataaca cctcagaacc aatcaatatg
+      661 gaaccagttg cgggcgcggt tactgccgca gccacggctg gccaggtgaa tatgattgat
+      721 ccttggataa tgaataatta tgtgcaagcc ccccagggtg aatttacaat ctcacccaat
+      781 aatacccctg gtgacatatt gtttgatctt caattgggtc cccacctgaa tccttttctt
+      841 gctcacttat cccagatgta taatggatgg gttggtaaca tgaaggtcag ggtggtgctg
+      901 gctggcaatg ccttttctgc gggaaagatc atagtgtgct gtataccacc tggattttct
+      961 gcaccaaaca tatccatagc ccaggcaact atgttcccgc atgttattgc tgatgttcgg
+     1021 gttttggagc ccattgatat tccccttgat gatgtcagga atgttttgtt tcatactaat
+     1081 gataatggta atcagaccat gagattgctg tgcatgttgt atacaccact tcgtagtgga
+     1141 ggtacatcca gtggaactga tccatttgtg attgctggta gggttttaac ctgtcctact
+     1201 ccagatttta atttcttgtt tttagttccc ccaaccgttg agcaaaagac caaacagttt
+     1261 agtgtgccaa accttcccct caatgttatg tctaactcta gagttccatc actgctgaat
+     1321 gctatggtgg tgtcaccaga tcaggctcaa gtggtgcagt tccagaatgg caggtgcacc
+     1381 cttgatgggc aaatgttagg caccactact gtgtcagcta gttgtgttgc aagattcaga
+     1441 gggaaaactt ttcaagcccc tgacgacagg ttaggcatta atctggctga aattagtgga
+     1501 gaaccatatc atgcatttga aagccccgcc cccctaggtt tccctgattt tggggatgga
+     1561 gattggcacg tcactgcaac aaaagtagcc ccctcacagc tcgaagctaa tgatcctgtg
+     1621 gtcgtgggga atgtccaacc atataaccta cagtttgctc ctcacctggg caccctagtt
+     1681 gtagaaaacc ccaccccaaa tcaagtggcc accgggactg acctattatt caacataacc
+     1741 tggctttcca atcgtgccaa taatcggttt aacccttgga tcattccaaa ttatggttca
+     1801 actctcacgg aggcagcaca gctagcacct tcaatatttc cccctggctt tggtgaaact
+     1861 atagtgtact tcaattccac ttttccagct gtgggagcca ccacccatgc agctataccc
+     1921 tgtctgcttc cacaagaatt tgttgctcat tttgttaatg agcaggcccc catacgtgga
+     1981 gaggctgctt tgctccatta cattgaccct gacactcacc gtaatcttgg tgagttcaaa
+     2041 atttatcctg agggctttgt gacgtgtgtc cctaatgtgg gtggcacagg gccgcaatct
+     2101 ctacctacta atggtatctt tgtctttgtt tcttgggtgt caaggtacta tcaactcaag
+     2161 cctgtgggaa ctgccac
+//
+

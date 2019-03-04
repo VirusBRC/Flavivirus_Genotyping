@@ -1,0 +1,78 @@
+LOCUS       KT722320                1356 bp    RNA     linear   VRL 11-JUL-2016
+DEFINITION  Hepatitis C virus isolate Patient67_GT3b_SCRN NS5A gene, partial
+            cds.
+ACCESSION   KT722320
+VERSION     KT722320.1
+KEYWORDS    .
+SOURCE      Hepatitis C virus
+  ORGANISM  Hepatitis C virus
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Flaviviridae; Hepacivirus.
+REFERENCE   1  (bases 1 to 1356)
+  AUTHORS   Lawitz,E.J., Dvory-Sobol,H., Doehle,B., Worth,A., McNally,J.,
+            Brainard,D.M., Link,J.O., Miller,M.D. and Mo,H.
+  TITLE     Clinical Resistance to Velpatasvir (GS-5816), a Novel Pan-Genotypic
+            Inhibitor of the Hepatitis C Virus NS5A Protein
+  JOURNAL   Antimicrob. Agents Chemother. (2016) In press
+   PUBMED   27353271
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1356)
+  AUTHORS   Lawitz,E.J., Dvory-Sobol,H., Doehle,B., Worth,A., McNally,J.,
+            Brainard,D.M., Link,J., Miller,M.D., Mo,H. and Rodriguez-Torres,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-SEP-2015) Clinical Virology, Gilead Sciences Inc, 333
+            Lakeside Drive, Foster City, CA 94404, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: VICUNA v. v 1.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1356
+                     /organism="Hepatitis C virus"
+                     /mol_type="genomic RNA"
+                     /isolate="Patient67_GT3b_SCRN"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11103"
+                     /country="USA"
+                     /collection_date="26-Dec-2012"
+                     /note="cohort 7: GS5816 150 mg;
+                     genotype: 3b"
+     CDS             <1..>1356
+                     /codon_start=1
+                     /product="NS5A"
+                     /protein_id="ANQ34416.1"
+                     /translation="SGDWLRTIWDWVCTTLSDFKTWLSAKIMPALPGLPFISCQKGYK
+                     GVWRGDGVMSTRCPCGASITGHVRNGSMRLAGPRTCANMWHGTFPINEYTTGPGTPCP
+                     PPNYTRALWRVAADSYVEVRRVGDFHYITGATEDELKCPCQVPAAEFFTEVDGVRIHR
+                     YAPPCKPLLRDDITFMVGLNSYVIGSQLPCEPEPDVSVLTSMLRDPSHITAETAARRL
+                     ARGSPPSEASSSASQLSAPSLKATCQTHRPHPDAELVDANLLWRQEMGSNITRVESET
+                     KVVILDSFEPLRAETDDVELSVAAECFKKPPRYPPALPIWAKPDYNPPLLDRWKAPDY
+                     VPPTVHGCALPPRGAPPVPPPRRKRTIQLDGSNVSAALAALAKKSFPSAEPQEENSSS
+                     SGVDTQSSTTSKMPPSPEGESDSESCSSMPPLEGEPGDPDLSCDSWSTVSDNEEQSVV
+                     CC"
+ORIGIN      
+        1 agcggtgatt ggctgcgtac catctgggac tgggtttgca cgacattgtc tgacttcaag
+       61 acatggcttt ctgctaagat tatgccagcg ctccctgggc tgcccttcat ttcctgtcag
+      121 aaggggtata agggcgtgtg gcggggggac ggtgtaatgt caacacgctg tccttgcggg
+      181 gcatcaataa ccggccatgt gaggaatggg tccatgcggc ttgcagggcc gcgtacatgt
+      241 gctaacatgt ggcacggtac tttccctata aatgagtaca ccactggacc cggcacacct
+      301 tgcccgccac ccaactacac acgcgcatta tggcgtgtag ctgccgacag ctacgttgag
+      361 gtgcgccggg tgggggactt ccattacatc acgggggcta cagaagatga gctcaagtgt
+      421 ccgtgccaag tgccggctgc tgagttcttt actgaagtgg acggggtgag aattcaccgt
+      481 tacgcccctc catgcaagcc cctgttgagg gatgacatca ctttcatggt agggttgaat
+      541 tcctacgtga taggatctca actcccctgt gaacccgaac cagacgtttc tgtcctgacc
+      601 tcgatgctga gagacccctc ccatatcacc gccgagacgg cagcgcgccg ccttgcgcgc
+      661 gggtcccctc catcagaggc aagctcttcc gccagccaac tatcggctcc atcgctgaag
+      721 gccacctgtc agacgcacag gcctcaccca gacgctgagc tggtggacgc caacttgtta
+      781 tggcggcagg agatgggcag caacatcaca cgggtagagt ctgaaacaaa ggttgtgatc
+      841 cttgattcat tcgaacctct gagagccgaa actgatgatg tcgagctctc ggtggctgca
+      901 gagtgcttca agaaacctcc cagatatcct ccagcccttc ctatctgggc taagccagac
+      961 tacaaccctc cactgttgga ccgttggaaa gcaccggatt atgtaccacc aactgttcat
+     1021 ggatgcgcct taccaccacg gggtgctcca ccggtgcctc cccctcggag gaagagaaca
+     1081 attcagctgg atggctccaa tgtgtccgcg gcgctagctg cgctagcaaa aaagtcattc
+     1141 ccgtctgcgg aaccgcagga agagaacagc tcatcctcag gggtcgacac acagtccagc
+     1201 actacttcca agatgccccc ttctccggaa ggggagtccg actcagagtc gtgctcgtcc
+     1261 atgccccctc tcgagggaga gccgggcgat ccggacttga gttgcgactc ttggtccacc
+     1321 gtcagtgaca acgaggagca gagcgtggtc tgctgy
+//
+

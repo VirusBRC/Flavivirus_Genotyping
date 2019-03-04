@@ -1,0 +1,157 @@
+mysql> select accession,taxid,speciesid,species,genus from genome left join taxon on taxid=taxon.id where taxid in (select id from taxon where family='Flaviviridae') and accession like "NC_%" order by speciesid;
++-----------+--------+-----------+----------------------------------------+-------------+
+| accession | taxid  | speciesid | species                                | genus       | shorthand
++-----------+--------+-----------+----------------------------------------+-------------+
+| NC_001437 |  11072 |     11072 | Japanese encephalitis virus            | Flavivirus  | Japenceph
+| NC_000943 |  11079 |     11079 | Murray Valley encephalitis virus       | Flavivirus  | Murray
+| NC_007580 |  11080 |     11080 | St. Louis encephalitis virus           | Flavivirus  | StLouis
+| NC_001563 |  11082 |     11082 | West Nile virus                        | Flavivirus  | WestNile
+| NC_009942 |  11082 |     11082 | West Nile virus                        | Flavivirus  | WestNile
+| NC_003687 |  11083 |     11083 | Powassan virus                         | Flavivirus  | Powassan
+| NC_001672 |  11084 |     11084 | Tick-borne encephalitis virus          | Flavivirus  | TKBEnceph
+| NC_003690 |  11085 |     11085 | Langat virus                           | Flavivirus  | Langat
+#| NC_001809 |  11086 |     11086 | Louping ill virus                      | Flavivirus  | Louping
+| NC_002031 |  11089 |     11089 | Yellow fever virus                     | Flavivirus  | YellowFever
+| NC_002657 |  11096 |     11096 | Classical swine fever virus            | Pestivirus  |
+| NC_001461 |  11099 |     11099 | Bovine viral diarrhea virus 1          | Pestivirus  | BovDiarrhea1
+| NC_009827 |  42182 |     11103 | Hepatitis C virus                      | Hepacivirus | HCV
+| NC_004102 |  11103 |     11103 | Hepatitis C virus                      | Hepacivirus | HCV
+| NC_009823 |  40271 |     11103 | Hepatitis C virus                      | Hepacivirus | HCV
+| NC_009824 | 356114 |     11103 | Hepatitis C virus                      | Hepacivirus | HCV
+| NC_009825 |  33745 |     11103 | Hepatitis C virus                      | Hepacivirus | HCV
+| NC_009826 |  33746 |     11103 | Hepatitis C virus                      | Hepacivirus | HCV
+#| NC_005062 |  12542 |     12542 | Omsk hemorrhagic fever virus           | Flavivirus  | Omsk
+| NC_001477 |  11053 |     12637 | Dengue virus                           | Flavivirus  | Dengue
+| NC_002640 |  11070 |     12637 | Dengue virus                           | Flavivirus  | Dengue
+| NC_001474 |  11060 |     12637 | Dengue virus                           | Flavivirus  | Dengue
+| NC_001475 |  11069 |     12637 | Dengue virus                           | Flavivirus  | Dengue
+| NC_001564 |  31658 |     31658 | Cell fusing agent virus                | Flavivirus  | CellFusing
+| NC_004355 | 172148 |     33743 | Kyasanur forest disease virus          | Flavivirus  | Kyasanur
+| NC_001837 |  39112 |     39112 | GB virus A                             |             |
+| NC_001655 |  39113 |     39113 | Hepatitis GB virus B                   |             |
+| NC_009029 |  44024 |     44024 | Kokobera virus                         | Flavivirus  | Kokobera
+| NC_008719 |  44026 |     44026 | Sepik virus                            | Flavivirus  | Sepik
+| NC_001710 |  54290 |     54290 | GB virus C                             |             |
+| NC_002032 |  54315 |     54315 | Bovine viral diarrhea virus 2          | Pestivirus  | BovDiarrhea2
+| NC_009028 |  59563 |     59563 | Ilheus virus                           | Flavivirus  | Ilheus
+| NC_003676 |  64280 |     64280 | Apoi virus                             | Flavivirus  | Apoi
+| NC_008718 |  64283 |     64283 | Entebbe bat virus                      | Flavivirus  |
+| NC_003675 |  64285 |     64285 | Rio Bravo virus                        | Flavivirus  | RioBravo
+| NC_006551 |  64286 |     64286 | Usutu virus                            | Flavivirus  | Usutu
+| NC_006947 |  64287 |     64288 | Royal Farm virus                       | Flavivirus  | RoyalFarm
+| NC_012534 |  64290 |     64290 | Bagaza virus                           | Flavivirus  | Bagaza
+| NC_005039 |  64294 |     64294 | Yokose virus                           | Flavivirus  | Yokose
+| NC_003635 |  64300 |     64300 | Modoc virus                            | Flavivirus  | Modoc
+| NC_009026 |  64303 |     64303 | Aroa virus                             | Flavivirus  | Aroa
+| NC_009027 |  64308 |     64308 | Iguape virus                           | Flavivirus  | Iguape
+| NC_012533 |  64311 |     64311 | Kedougou virus                         | Flavivirus  | Kedougou
+| NC_004119 |  64312 |     64312 | Montana myotis leukoencephalitis virus | Flavivirus  |
+| NC_012532 |  64320 |     64320 | Zika virus                             | Flavivirus  | Zika
+| NC_003678 | 155905 |    155905 | Giraffe-1                              | Pestivirus  |
+| NC_003996 | 161675 |    161675 | Tamana bat virus                       | Flavivirus  |
+| NC_012735 | 164416 |    164416 | Wesselsbron virus                      | Flavivirus  | Wesselsbron
+| NC_005064 | 218849 |    218849 | Kamiti River virus                     | Flavivirus  |
+| NC_003679 | 358764 |    358764 | Border disease virus                   | Pestivirus  |
+| NC_012812 | 402584 |    381707 | Bovine viral diarrhea virus 3          | Pestivirus  | BovDiarrhea3
+| NC_008604 | 390844 |    390844 | Culex flavivirus                       | Flavivirus  | Culex
+| NC_012932 | 390845 |    390845 | Aedes flavivirus                       | Flavivirus  | Aedes
+| NC_012671 | 643132 |    643132 | Quang Binh virus                       | Flavivirus  |
++-----------+--------+-----------+----------------------------------------+-------------+
+54 rows in set (0.00 sec)
+
+# WestNile
+| AF260968 |  |  |  |  | WestNile
+| AB185917 |  |  |  |  | WestNile
+| AF404753 |  |  |  |  | WestNile
+| AY842931 |  |  |  |  | WestNile
+| AY701412 |  |  |  |  | WestNile
+| D00246   |  |  |  |  | WestNile
+| EF429199 |  |  |  |  | WestNile
+| AY532665 |  |  |  |  | WestNile
+| AY688948 |  |  |  |  | WestNile
+| M12294   |  |  |  |  | WestNile
+| AY765264 |  |  |  |  | WestNile
+| AY277251 |  |  |  |  | WestNile
+| DQ256376 |  |  |  |  | WestNile
+
+# Japenceph
+| AB051292 |  |  |  |  | Japenceph
+| AF045551 |  |  |  |  | Japenceph
+| EU693899 |  |  |  |  | Japenceph
+| EU429297 |  |  |  |  | Japenceph
+| AF217620 |  |  |  |  | Japenceph
+| HQ223287 |  |  |  |  | Japenceph
+| HQ223286 |  |  |  |  | Japenceph
+| HQ223285 |  |  |  |  | Japenceph
+| L48961   |  |  |  |  | Japenceph
+| AF254452 |  |  |  |  | Japenceph
+| M18370   |  |  |  |  | Japenceph
+| EF623987 |  |  |  |  | Japenceph
+| AY184212 |  |  |  |  | Japenceph
+
+# StLouis
+
+# YellowFever
+| U21056   |  |  |  |  | YellowFever
+
+# BovDiarrhea1
+| U18059   |  |  |  |  | BovDiarrhea1
+
+# 11983 | Norwalk virus
+| AB536978 |  |  |  |  | NoVI
+| DQ004635 |  |  |  |  | NoVI
+| EU085512 |  |  |  |  | NoVI
+| EU085514 |  |  |  |  | NoVI
+| DQ452548 |  |  |  |  | NoVI
+| GQ915118 |  |  |  |  | NoVI
+| EU794720 |  |  |  |  | NoVI
+| JQ943982 |  |  |  |  | NoVI
+| FM212903 |  |  |  |  | NoVI
+| DQ340086 |  |  |  |  | NoVI
+| GQ330907 |  |  |  |  | NoVI
+| DQ386978 |  |  |  |  | NoVI
+| FM212892 |  |  |  |  | NoVI
+| GU132469 |  |  |  |  | NoVI
+| HM047101 |  |  |  |  | NoVI
+| GU132468 |  |  |  |  | NoVI
+| KC413404 |  |  |  |  | NoVI
+| HW066086 |  |  |  |  | NoVI
+| HW066088 |  |  |  |  | NoVI
+| GQ166492 |  |  |  |  | NoVI
+| JX488756 |  |  |  |  | NoVI
+| JX893035 |  |  |  |  | NoVI
+| JX994998 |  |  |  |  | NoVI
+| JX488758 |  |  |  |  | NoVI
+| JX666245 |  |  |  |  | NoVI
+| HM172496 |  |  |  |  | NoVI
+| AB437158 |  |  |  |  | NoVI
+| JQ362574 |  |  |  |  | NoVI
+| JN603254 |  |  |  |  | NoVI
+| GQ487572 |  |  |  |  | NoVI
+| GQ487571 |  |  |  |  | NoVI
+| GQ487578 |  |  |  |  | NoVI
+| GQ487573 |  |  |  |  | NoVI
+| JN176917 |  |  |  |  | NoVI
+| GQ487570 |  |  |  |  | NoVI
+| HM623473 |  |  |  |  | NoVI
+| GU726149 |  |  |  |  | NoVI
+| GQ487577 |  |  |  |  | NoVI
+| JQ943969 |  |  |  |  | NoVI
+
+| AJ277609 |  |  |  |  | NoVI
+| GU296356 |  |  |  |  | NoVI
+| GU299761 |  |  |  |  | NoVI
+| AB039774 |  |  |  |  | NoVI
+| AJ277615 |  |  |  |  | NoVI
+
+| JQ944674 |  |  |  |  | NoVII
+| EU494666 |  |  |  |  | NoVII
+| AB262146 |  |  |  |  | NoVII
+| AB758451 |  |  |  |  | NoVII
+| HM802548 |  |  |  |  | NoVII
+| KC409240 |  |  |  |  | NoVII
+
+| EU794901 |  |  |  |  | NoVIII
+| FM242190 |  |  |  |  | NoVIII
+| EU360814 |  |  |  |  | NoVIII
+

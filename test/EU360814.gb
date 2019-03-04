@@ -1,0 +1,107 @@
+LOCUS       EU360814                2475 bp    RNA     linear   VRL 30-MAR-2010
+DEFINITION  Norovirus Bo/GIII.1/Aba-Z5/2002/HUN RNA-dependent RNA polymerase
+            gene, partial cds; structural capsid protein gene, complete cds;
+            and small basic protein gene, partial cds.
+ACCESSION   EU360814
+VERSION     EU360814.1  GI:164708717
+KEYWORDS    .
+SOURCE      Norovirus Bo/GIII.1/Aba-Z5/2002/HUN
+  ORGANISM  Norovirus Bo/GIII.1/Aba-Z5/2002/HUN
+            Viruses; ssRNA positive-strand viruses, no DNA stage;
+            Caliciviridae; Norovirus.
+REFERENCE   1  (bases 1 to 2475)
+  AUTHORS   Reuter,G., Pankovics,P. and Egyed,L.
+  TITLE     Detection of genotype 1 and 2 bovine noroviruses in Hungary
+  JOURNAL   Vet. Rec. 165 (18), 537-538 (2009)
+   PUBMED   19880863
+REFERENCE   2  (bases 1 to 2475)
+  AUTHORS   Reuter,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-DEC-2007) Regional Laboratory of Virology, ANTSZ
+            Baranya County Institute of State Public Health Service, Szabadsag
+            u. 7., Pecs H-7623, Hungary
+FEATURES             Location/Qualifiers
+     source          1..2475
+                     /organism="Norovirus Bo/GIII.1/Aba-Z5/2002/HUN"
+                     /mol_type="genomic RNA"
+                     /strain="Bo/NoV/Aba-Z5/2002/HUN"
+                     /db_xref="taxon:495296"
+                     /country="Hungary"
+                     /note="genotype: GIII/1 (Jena-like virus)"
+     CDS             <1..799
+                     /codon_start=2
+                     /product="RNA-dependent RNA polymerase"
+                     /protein_id="ABY67256.1"
+                     /db_xref="GI:164708718"
+                     /translation="SAWDSTQQREIMRRSLSIMTKLTAEPELAQVVAEDLLKPSHLDV
+                     GDFLLAVQEGLPSGFPCTSQVNSINHWILTLCALSEVTNLAPDVVQANSYFSFYGDDE
+                     IVSTDLEFDPARLTEVLKRYGLKPTRPDKTEGPIEVKQQVDGLVFLRRTISHDARGFQ
+                     GRLDRESILRQLYWTRGSNHDDPSESMVPHSNRKVQLLSLLGEASLHGEKFYRRVGSL
+                     VTAEARSGGMEIFVPSFRSMFAWMRFHDLSLWEGSRDILPDFVNEDD"
+     CDS             786..2345
+                     /note="ORF2"
+                     /codon_start=1
+                     /product="structural capsid protein"
+                     /protein_id="ABY67257.1"
+                     /db_xref="GI:164708719"
+                     /translation="MKMTDKDTQEAAPALGQVLPPEVEVAIPVEPTAGAQIAAPTAGQ
+                     VNPIDPWIFANFVQAPQGEFTISPNNNPGEVLFELELGPELNPYLAHLRQMYNGWTGS
+                     IRVKVILAGNAFSAGKIIVFCIPPGFDASYLTPFQATQFPHVIMDVRAAEPIEIPLAD
+                     VRNVLFHQGPDSRMRLMGMLYTPLRANSGADPFVVTGRVLTCPSPDFSFFFLVPPTVE
+                     ERSTPFSVPNVPVYSLTNSRAPVPIYELRSSRSLPLTVQFQNGRCTVEGDLLGTTPFS
+                     AGDLCSFMCIRGDTQHIAELLEPDESAFVVGERPATLGFPDFSQCVLHLLLADGTGIW
+                     HQSLDVKNPQHFTPAIGQVVLSGDVPLTRTRVRLDYVLSTSRDSFWVLPDYRSDVLGS
+                     EFAPAVSAPGVGETLLFFMGRAPVQGPSNPLPCLLPLEWVFHFASERPTKQSDVALLN
+                     YVNPDTGRVLFEAKLYSSGFLTVNLGTANEVVLPTSGIFKFASWVSLYYQLRPVGTLS
+                     AGRRLPRVDGY"
+     CDS             2335..>2475
+                     /codon_start=1
+                     /product="small basic protein"
+                     /protein_id="ABY67258.1"
+                     /db_xref="GI:164708720"
+                     /translation="MATDFLGSLFGGAVSAAIATGSQAALQDQVYRQNLELQSRSFQH
+                     DER"
+ORIGIN      
+        1 ttcagcatgg gacagcactc agcagcgcga gatcatgcgc cgcagcttgt ctatcatgac
+       61 caaattgaca gcagagcctg aattggcaca agtagttgcg gaggacctcc tcaagccatc
+      121 ccaccttgac gttggtgatt ttcttcttgc ggtacaggag ggcctccctt ctggcttccc
+      181 gtgcacctct caagttaatt ccatcaacca ttggatactg accctgtgtg ccctgtctga
+      241 ggtcactaat ttggccccag atgtcgtcca ggctaattcc tacttctcct tctatggaga
+      301 tgatgagata gtttccacag atctggagtt tgaccctgct cggctcacag aagtcctcaa
+      361 aaggtatggc ctgaagccaa ctcgccctga caagaccgag ggccccatcg aagtgaagca
+      421 gcaggtcgat ggcctcgtgt tcctccggcg gaccatttcg catgatgcca gaggtttcca
+      481 gggtcgccta gatcgtgagt ccattctgcg tcaactctat tggacccgtg gctccaacca
+      541 cgatgatcca tcagagagca tggtccccca ttctaaccgt aaagtccaat tgctcagttt
+      601 actgggtgag gcctccctcc atggggagaa gttctaccgc cgcgtcggct cgctggtgac
+      661 tgccgaggct cgcagtggtg ggatggagat ctttgtcccc tctttccgct ccatgtttgc
+      721 ttggatgcgt tttcatgatc tgtcgctgtg ggaaggtagt cgcgacatcc ttcccgattt
+      781 tgtaaatgaa gatgactgac aaggacacgc aggaagcggc tccggccctt ggccaagtcc
+      841 tcccccccga ggttgaggtg gccatccccg ttgagcccac tgcgggggcg cagatcgctg
+      901 cccctactgc tggacaagtc aaccctattg acccatggat ttttgcaaat tttgtgcagg
+      961 ccccccaggg cgaattcacc atctccccaa ataataatcc tggagaagtt ctttttgaac
+     1021 tggagctcgg cccggagctg aacccatacc tggcccactt gcgccagatg tataacgggt
+     1081 ggactgggtc cattcgagtc aaggtgatcc tggccgggaa tgctttttca gctggaaaga
+     1141 ttatagtttt ctgtattcct cctggttttg atgcttccta tctcactcct tttcaggcca
+     1201 ctcagttccc tcatgtaata atggatgtcc gcgctgcgga gccaattgaa atcccccttg
+     1261 ctgatgtgcg caatgtgctt tttcatcagg gcccagattc ccggatgcgg ctgatgggca
+     1321 tgctttacac cccgctccgt gctaattctg gtgcagaccc gtttgtcgta acggggaggg
+     1381 ttcttacctg tccaagtcca gatttttctt tcttcttttt ggttcccccc actgtagagg
+     1441 agcggagcac ccccttttcc gttccgaatg ttccagtcta cagcctcacc aattcccgtg
+     1501 ccccggttcc catctatgag ctccgtagct cccgctcttt gcctttgacg gtgcagttcc
+     1561 aaaatggtcg ctgtactgtg gagggcgatt tgcttggcac cactcctttt tctgctggtg
+     1621 atctgtgctc ttttatgtgt attcgtgggg atacccagca catagccgaa ttgttggaac
+     1681 ccgatgaatc ggcttttgtt gttggggagc gcccagccac gcttggtttt ccagattttt
+     1741 ctcagtgtgt tcttcatctt ttgcttgccg atggcactgg catttggcac cagagccttg
+     1801 acgtgaagaa tccacaacac ttcaccccag ccatcggcca ggttgtgttg tctggagatg
+     1861 tgccattgac ccggactcgg gtccgcttgg attatgtttt gtctacttct agggactctt
+     1921 tctgggtgct gcctgattat cgttctgatg tgcttggctc tgagtttgcc cctgccgttt
+     1981 ctgcgcctgg ggtgggcgag acccttctct ttttcatggg gagggcgccc gttcaaggcc
+     2041 cttccaaccc tcttccgtgc ctgcttccct tggaatgggt cttccatttc gcttcagaac
+     2101 ggcctaccaa acagagtgat gtggcgctgc ttaactacgt caacccggac accggtcgtg
+     2161 tcctttttga agcgaaactc tactcttctg gatttctcac agtgaatttg gggactgcta
+     2221 atgaggtggt tctgcccacc agtggcatct tcaagtttgc ctcttgggtt tctctttact
+     2281 atcagcttcg gcccgtggga acgctgagtg ctggccgccg cctcccccga gtcgatggct
+     2341 actgattttc tagggtcttt gttcggcggg gctgtttctg cagcaatcgc cactgggtcg
+     2401 caggcagccc tccaggatca ggtctatcga caaaatcttg agttgcagtc tcgttccttc
+     2461 caacatgatg agagg
+//

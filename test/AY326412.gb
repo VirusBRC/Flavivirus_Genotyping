@@ -1,0 +1,40 @@
+LOCUS       AY326412                 314 bp    RNA     linear   VRL 03-SEP-2004
+DEFINITION  Zika virus strain MR 766 3' untranslated region, partial sequence.
+ACCESSION   AY326412
+VERSION     AY326412.1  GI:37574741
+KEYWORDS    .
+SOURCE      Zika virus
+  ORGANISM  Zika virus
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Flaviviridae; Flavivirus; Spondweni virus group.
+REFERENCE   1  (bases 1 to 314)
+  AUTHORS   Mutebi,J.P., Rijnbrand,R.C., Wang,H., Ryman,K.D., Wang,E.,
+            Fulop,L.D., Titball,R. and Barrett,A.D.
+  TITLE     Genetic relationships and evolution of genotypes of yellow fever
+            virus and other members of the yellow fever virus group within the
+            Flavivirus genus based on the 3' noncoding region
+  JOURNAL   J. Virol. 78 (18), 9652-9665 (2004)
+   PUBMED   15331698
+REFERENCE   2  (bases 1 to 314)
+  AUTHORS   Mutebi,J.-P. and Barrett,A.D.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUN-2003) Center for Tropical Diseases and Department
+            of Pathology, University of Texas Medical Branch, 301 University
+            Boulevard, Galveston, TX 77555, USA
+FEATURES             Location/Qualifiers
+     source          1..314
+                     /organism="Zika virus"
+                     /mol_type="genomic RNA"
+                     /strain="MR 766"
+                     /db_xref="taxon:64320"
+     misc_feature    1..3
+                     /note="NS5 stop codon"
+     3'UTR           4..>314
+ORIGIN      
+        1 taacaccaat tttagtgttg tcagcctgct agccagccac agtttgggaa acgtgtgcag
+       61 cctgtagccc caggagacgc tggaaaccaa cgcattttgc tagccgagaa cgccatggca
+      121 cgaagaagcc atgccgcctg tgagcccctc ggaggacact gagttaaaaa accccacgcg
+      181 cttggaagcg caggggagtg cggcctgcgc agccccagga ggactgggtt accaaagccg
+      241 ttgagccccc acggcccaag cctcgtctag gatgcaatag acgaggtaga gggactagag
+      301 gttagaggag accc
+//

@@ -1,0 +1,53 @@
+LOCUS       EF015062                 462 bp    RNA     linear   VRL 01-AUG-2007
+DEFINITION  Murray Valley encephalitis virus isolate CY1189 envelope protein
+            (E) gene, partial cds.
+ACCESSION   EF015062
+VERSION     EF015062.1  GI:121806061
+KEYWORDS    .
+SOURCE      Murray Valley encephalitis virus
+  ORGANISM  Murray Valley encephalitis virus
+            Viruses; ssRNA positive-strand viruses, no DNA stage; Flaviviridae;
+            Flavivirus; Japanese encephalitis virus group.
+REFERENCE   1  (bases 1 to 462)
+  AUTHORS   Johansen,C.A., Susai,V., Hall,R.A., Mackenzie,J.S., Clark,D.C.,
+            May,F.J., Hemmerter,S., Smith,D.W. and Broom,A.K.
+  TITLE     Genetic and phenotypic differences between isolates of Murray
+            Valley encephalitis virus in Western Australia, 1972-2003
+  JOURNAL   Virus Genes 35 (2), 147-154 (2007)
+   PUBMED   17393295
+REFERENCE   2  (bases 1 to 462)
+  AUTHORS   Johansen,C.A., Susai,V., Hall,R.A., Mackenzie,J.S., Clark,D.C.,
+            May,F.J., Smith,D.W. and Broom,A.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-SEP-2006) Microbiology and Immunology, The University
+            of Western Australia, M502 Microbiology and Immumology, Perth, WA
+            6009, Australia
+FEATURES             Location/Qualifiers
+     source          1..462
+                     /organism="Murray Valley encephalitis virus"
+                     /mol_type="genomic RNA"
+                     /isolate="CY1189"
+                     /host="mosquito"
+                     /db_xref="taxon:11079"
+                     /country="Australia"
+     gene            <1..>462
+                     /gene="E"
+     CDS             <1..>462
+                     /gene="E"
+                     /codon_start=1
+                     /product="envelope protein"
+                     /protein_id="ABM65191.1"
+                     /db_xref="GI:121806062"
+                     /translation="NQAVRFTISPNAPAITAKMGDYGEVTVECEPRSGLNTEAYYVMT
+                     IGTKHFLVHREWFNDLLLPWTSPASTEWRNREVLVEFEEPHATKQSVVALGSQEGALH
+                     QALAGAIPVEFPSSTLKLTSGHLKCRVKMEKLKLKGTTYGMCTGKFTFSKNP"
+ORIGIN      
+        1 aaccaggcag tcaggttcac catttcacca aacgctccag ccatcacagc aaagatgggc
+       61 gactatggag aagtcaccgt ggagtgcgaa ccgaggagtg gtctgaacac agaggcctac
+      121 tatgtcatga ccattggaac gaaacatttt ctagtacatc gtgagtggtt caatgatttg
+      181 ctcttgccat ggacatcacc tgcaagcaca gaatggagga atagagaagt tctcgtggag
+      241 tttgaagagc cacatgccac caaacaatca gtggttgcct tgggttcaca ggaaggagct
+      301 ttgcaccaag ctctggctgg agccatacca gtcgagttcc cgagcagcac acttaaactc
+      361 acttcaggac accttaaatg tcgcgtaaaa atggagaaat tgaaactgaa aggaaccact
+      421 tatgggatgt gcacaggaaa atttactttt tcaaagaatc ca
+//
